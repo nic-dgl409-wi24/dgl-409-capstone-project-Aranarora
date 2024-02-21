@@ -11,23 +11,28 @@
             "palette": [
                 {
                     "slug": "base",
-                    "name": "Base"
+                    "name": "Base",
+                    "color": "#ffffff"
                 },
                 {
                     "slug": "contrast",
-                    "name": "Contrast"
+                    "name": "Contrast",
+                    "color": "#1a6987"
                 },
                 {
                     "slug": "primary",
-                    "name": "Primary"
+                    "name": "Primary",
+                    "color": "#a1ac4e"
                 },
                 {
                     "slug": "secondary",
-                    "name": "Secondary"
+                    "name": "Secondary",
+                    "color": "f7f7f7f"
                 },
                 {
                     "slug": "tertiary",
-                    "name": "Tertiary"
+                    "name": "Tertiary",
+                    "color": "f7f7f7f"
                 }
             ]
         }
