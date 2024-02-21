@@ -1,44 +1,236 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 2,
-    "settings": {
-        "appearanceTools": true,
-        "layout": {
-            "contentSize": "920px",
-            "wideSize": "1280px"
-        },
-        "color": {
-            "palette": [
-                {
-                    "slug": "base",
-                    "name": "Base",
-                    "color": "#ffffff"
-                },
-                {
-                    "slug": "contrast",
-                    "name": "Contrast",
-                    "color": "#1a6987"
-                },
-                {
-                    "slug": "primary",
-                    "name": "Primary",
-                    "color": "#a1ac4e"
-                },
-                {
-                    "slug": "secondary",
-                    "name": "Secondary",
-                    "color": "f7f7f7f"
-                },
-                {
-                    "slug": "tertiary",
-                    "name": "Tertiary",
-                    "color": "f7f7f7f"
-                }
-            ]
-        }
-    },
-    "styles": {},
-    "customTemplates": {},
-    "templateParts": {},
-    "patterns": []
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "920px",
+			"wideSize": "1280px"
+		},
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Base",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "contrast",
+					"name": "Contrast",
+					"color": "#1a6987"
+				},
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#a1ac4e"
+				},
+				{
+					"slug": "secondary",
+					"name": "Secondary",
+					"color": "f7f7f7f"
+				},
+				{
+					"slug": "tertiary",
+					"name": "Tertiary",
+					"color": "f7f7f7f"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Playfair Display",
+					"slug": "playfair-display",
+					"fontFace": [
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_800.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/playfair-display_normal_900.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_800.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/playfair-display_italic_900.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Lato",
+					"slug": "lato",
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/lato_normal_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/lato_italic_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/lato_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/lato_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/lato_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/lato_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/lato_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/lato_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/lato_normal_900.ttf"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/lato_italic_900.ttf"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": [],
+	"customTemplates": [],
+	"templateParts": [],
+	"patterns": []
 }
