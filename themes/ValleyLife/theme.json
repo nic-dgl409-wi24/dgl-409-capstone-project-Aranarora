@@ -1,46 +1,44 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
+	"customTemplates": [],
+	"patterns": [],
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#1a6987",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#a1ac4e",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "f7f7f7f",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "f7f7f7f",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "920px",
 			"wideSize": "1280px"
 		},
-		"color": {
-			"palette": [
-				{
-					"slug": "base",
-					"name": "Base",
-					"color": "#ffffff"
-				},
-				{
-					"slug": "contrast",
-					"name": "Contrast",
-					"color": "#1a6987"
-				},
-				{
-					"slug": "primary",
-					"name": "Primary",
-					"color": "#a1ac4e"
-				},
-				{
-					"slug": "secondary",
-					"name": "Secondary",
-					"color": "f7f7f7f"
-				},
-				{
-					"slug": "tertiary",
-					"name": "Tertiary",
-					"color": "f7f7f7f"
-				}
-			]
-		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Playfair Display",
-					"slug": "playfair-display",
 					"fontFace": [
 						{
 							"fontFamily": "Playfair Display",
@@ -138,11 +136,11 @@
 								"file:./assets/fonts/playfair-display_italic_900.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Playfair Display",
+					"slug": "playfair-display"
 				},
 				{
-					"fontFamily": "Lato",
-					"slug": "lato",
 					"fontFace": [
 						{
 							"fontFamily": "Lato",
@@ -224,13 +222,77 @@
 								"file:./assets/fonts/lato_italic_900.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Lato",
+					"slug": "lato"
 				}
 			]
 		}
 	},
-	"styles": [],
-	"customTemplates": [],
+	"styles": {
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--lato)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--lato)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontStyle": "italic",
+					"fontWeight": "700"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontStyle": "italic",
+					"fontWeight": "700"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontStyle": "italic",
+					"fontWeight": "700"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair-display)"
+				}
+			},
+			"link": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--lato)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lato)"
+		}
+	},
 	"templateParts": [],
-	"patterns": []
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
 }
