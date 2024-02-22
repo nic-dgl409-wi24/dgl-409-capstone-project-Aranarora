@@ -8,8 +8,8 @@
 ?>
 <!-- wp:template-part {"slug":"header"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80);padding-top:0;padding-bottom:0"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center">Settling</h2>
 <!-- /wp:heading -->
 
@@ -88,10 +88,10 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:media-text {"align":"","mediaId":46,"mediaLink":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/artboard-2-fotor-bg-remover-20240221133057","mediaType":"image"} -->
-<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Artboard-2-fotor-bg-remover-20240221133057.png" alt="" class="wp-image-46 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"large"} -->
-<h2 class="wp-block-heading has-secondary-color has-text-color has-link-color has-large-font-size">About Us</h2>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:media-text {"align":"","mediaId":46,"mediaLink":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/artboard-2-fotor-bg-remover-20240221133057","mediaType":"image"} -->
+<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Artboard-2-fotor-bg-remover-20240221133057.png" alt="" class="wp-image-46 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"fontSize":"32px"}},"textColor":"secondary"} -->
+<h2 class="wp-block-heading has-secondary-color has-text-color has-link-color" style="font-size:32px">About Us</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -108,6 +108,74 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:media-text --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
+<h2 class="wp-block-heading" style="padding-top:0;padding-bottom:0">Join Our Events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":102,"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/dylan-shaw-6zjswHYP4zE-unsplash-1024x683.jpg" alt="" class="wp-image-102" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"28px"}}} -->
+<h3 class="wp-block-heading" style="font-size:28px">Outdoor Adventure Club</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Date:</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":103,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg" alt="" class="wp-image-103"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"28px"}}} -->
+<h3 class="wp-block-heading has-text-align-left" style="font-size:28px">Board of Directors Business Meeting</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Date:</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":107,"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/priscilla-du-preez-XkKCui44iM0-unsplash-1024x683.jpg" alt="" class="wp-image-107" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"28px"}}} -->
+<h3 class="wp-block-heading" style="font-size:28px">Fairness for International Students</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Date:</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":110,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/anupam-mahapatra-Vz0RbclzG_w-unsplash-1024x683.jpg" alt="" class="wp-image-110"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"28px"}}} -->
+<h3 class="wp-block-heading has-text-align-left" style="font-size:28px">Student Yoga Spring 2023</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Date:</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
