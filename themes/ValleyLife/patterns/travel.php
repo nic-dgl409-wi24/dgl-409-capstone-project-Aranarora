@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:template-part {"slug":"header-copy"} /-->
+<!-- wp:template-part {"slug":"header-travel"} /-->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"40px"}}} -->
