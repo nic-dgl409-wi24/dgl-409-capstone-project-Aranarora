@@ -35,12 +35,12 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
-<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":170,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/olivia-anne-snyder-o-ADhD9o3Bg-unsplash-2-1024x684.jpg" alt="" class="wp-image-170"/></figure>
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":170,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="/Project-Valleylife/travel/airlines/"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/olivia-anne-snyder-o-ADhD9o3Bg-unsplash-2-1024x684.jpg" alt="" class="wp-image-170"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":4} -->
-<h4 class="wp-block-heading has-text-align-center">Airlines</h4>
+<h4 class="wp-block-heading has-text-align-center"><a href="/Project-Valleylife/travel/airlines/">Airlines</a></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
