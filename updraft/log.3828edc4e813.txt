@@ -1,0 +1,414 @@
+0000.001 (0) Opened log file at time: Sun, 17 Mar 2024 20:53:52 +0000 on http://localhost:8888/Project-Valleylife
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.2.0 (apache2handler, Darwin Arans-MacBook-Air.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:10 PST 2023; root:xnu-10002.61.3~2/RELEASE_X86_64 x86_64) MySQL: 5.7.39 (max packet size=4194304) WPLANG: en_CA Server: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47.3M | 48.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 346255.5 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.009 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.025 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1709698467, seconds_ago=1010365)
+0000.030 (0) Set semaphore last lock (fd) time to 2024-03-17 20:53:52
+0000.031 (0) Semaphore lock (fd) complete
+0000.037 (0) Backup run: resumption=0, nonce=3828edc4e813, file_nonce=3828edc4e813 begun at=1710708832 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 300 seconds (1710709132) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.067 (0) Testing: /usr/bin/zip
+0000.090 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.091 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.094 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.095 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.127 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.129 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.144 (0) Working binary zip found: /usr/bin/zip
+0000.146 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.147 (0) Creation of backups of directories: beginning
+0000.152 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.315 (0) Total entities for the zip file: 722 directories, 2836 files (0 skipped as non-modified), 40.5 MB
+0000.320 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.324 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.329 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.333 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.337 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.342 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.346 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.351 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.356 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.360 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.1 MB, 2836 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.075 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: size is now: 3.60 MB
+0001.080 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1100 files added (on-disk size: 3726.5 KB)
+0001.084 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1200 files added (on-disk size: 3726.5 KB)
+0001.088 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1300 files added (on-disk size: 3726.5 KB)
+0001.092 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1400 files added (on-disk size: 3726.5 KB)
+0001.095 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1500 files added (on-disk size: 3726.5 KB)
+0001.099 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1600 files added (on-disk size: 3726.5 KB)
+0001.103 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1700 files added (on-disk size: 3726.5 KB)
+0001.107 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1800 files added (on-disk size: 3726.5 KB)
+0001.111 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 1900 files added (on-disk size: 3726.5 KB)
+0001.115 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2000 files added (on-disk size: 3726.5 KB)
+0001.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25 MB, 2836 files batched, 1001 (2002) added so far); re-opening (prior size: 3726.5 KB)
+0002.624 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: size is now: 10.70 MB
+0002.630 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2100 files added (on-disk size: 10942.6 KB)
+0002.634 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2200 files added (on-disk size: 10942.6 KB)
+0002.638 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2300 files added (on-disk size: 10942.6 KB)
+0002.642 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2400 files added (on-disk size: 10942.6 KB)
+0002.647 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2500 files added (on-disk size: 10942.6 KB)
+0002.652 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2600 files added (on-disk size: 10942.6 KB)
+0002.657 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2700 files added (on-disk size: 10942.6 KB)
+0002.661 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.tmp: 2800 files added (on-disk size: 10942.6 KB)
+0003.367 (0) Creating zip file manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.list-temp.tmp)
+0003.383 (0) Successfully created zip file manifest (size: 250256)
+0003.607 (0) Created plugins zip (0) - 13062.7 KB in 3.5 s (3784.1 KB/s) (sha1: e821954b0a093751adf16d2946c8630cefc4e20f, sha256: 9573aaffb2b501cecd57e8f4207619b733ccbc5ceadeafae6714b2446c0c0557)
+0003.615 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.616 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50c3e96049355265dc1d5f46cdb56f76)
+0005.139 (0) Google Drive: quota usage: used=1399.8 MB, total=15360 MB, available=13960.2 MB
+0005.142 (0) Google Drive: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0006.009 (0) Googledrive chunked upload: 7.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 50.8 / 56.5)
+0006.505 (0) Googledrive chunked upload: 23.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 50.8 / 56.5)
+0007.487 (0) Googledrive chunked upload: 54.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 50.8 / 56.5)
+0010.268 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0010.272 (0) Google Drive: OK: Archive backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip uploaded in 5.13 seconds
+0010.273 (0) Recording as successfully uploaded: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip
+0010.276 (0) Deleting local file: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip: OK
+0010.281 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.303 (0) Total entities for the zip file: 46 directories, 357 files (0 skipped as non-modified), 17.2 MB
+0010.308 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.312 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.317 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.009 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.tmp: size is now: 14.50 MB
+0011.019 (0) Creating zip file manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.list-temp.tmp)
+0011.022 (0) Successfully created zip file manifest (size: 25001)
+0011.279 (0) Created themes zip (0) - 14828.8 KB in 1 s (14911.1 KB/s) (sha1: ff8c0009081fe3ffcdd095c7fbea504fe79ec9d4, sha256: ff7f2797d1d2a6a5ba9c468d24baae392a3065b56e6c900a2c113b24cc7ef874)
+0011.283 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0011.284 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50c3e96049355265dc1d5f46cdb56f76)
+0011.600 (0) Google Drive: quota usage: used=1412.6 MB, total=15360 MB, available=13947.4 MB
+0011.602 (0) Google Drive: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0012.498 (0) Googledrive chunked upload: 6.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 50.4 / 56.5)
+0013.029 (0) Googledrive chunked upload: 20.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 50.4 / 56.5)
+0014.418 (0) Googledrive chunked upload: 48.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 50.4 / 56.5)
+0016.181 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0016.187 (0) Google Drive: OK: Archive backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip uploaded in 4.58 seconds
+0016.188 (0) Recording as successfully uploaded: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip
+0016.192 (0) Deleting local file: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip: OK
+0016.198 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0016.199 (0) Looking for candidates to backup in: /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/uploads
+0016.201 (0) finding files: 2024: adding to list (1)
+0016.203 (0) finding files: slider: adding to list (2)
+0016.205 (0) finding files: slider2: adding to list (3)
+0016.206 (0) finding files: slider5: adding to list (4)
+0016.208 (0) finding files: slider4: adding to list (5)
+0016.209 (0) finding files: pum: adding to list (6)
+0016.210 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0016.239 (0) Total entities for the zip file: 18 directories, 234 files (0 skipped as non-modified), 60.9 MB
+0016.247 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 234 files batched, 82 (82) added so far); re-opening (prior size: 0 KB)
+0016.635 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.tmp: size is now: 25.50 MB
+0016.639 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 32015.9 KB/s)
+0016.643 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.81539297103882, normalised_time=0.79960260101011, max_time=16.640503168106, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0016.647 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.tmp: 100 files added (on-disk size: 26127.1 KB)
+0016.655 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.tmp: 200 files added (on-disk size: 26127.1 KB)
+0017.162 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.tmp: size is now: 60.90 MB
+0017.176 (0) Creating zip file manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.list-temp.tmp)
+0017.181 (0) Successfully created zip file manifest (size: 15579)
+0018.231 (0) Created uploads zip (0) - 62312.9 KB in 2 s (30897.9 KB/s) (sha1: df279c0b86c59aa3a041fde2ae2dddfb4db7ff32, sha256: a5767d9e97d212f0f86a855826dff109903cbf8883cd7073c01870b903e182f8)
+0018.235 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0018.236 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50c3e96049355265dc1d5f46cdb56f76)
+0018.540 (0) Google Drive: quota usage: used=1427 MB, total=15360 MB, available=13933 MB
+0018.543 (0) Google Drive: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0019.464 (0) Googledrive chunked upload: 1.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 50.4 / 56.5)
+0020.024 (0) Googledrive chunked upload: 4.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 50.4 / 56.5)
+0020.684 (0) Googledrive chunked upload: 11.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 50.4 / 56.5)
+0022.632 (0) Googledrive chunked upload: 24.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 50.4 / 56.5)
+0027.014 (0) Googledrive chunked upload: 50.9 % uploaded (32505856)
+0029.799 (0) Googledrive chunked upload: 77.2 % uploaded (49283072)
+0037.107 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0037.115 (0) Google Drive: OK: Archive backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip uploaded in 18.57 seconds
+0037.117 (0) Recording as successfully uploaded: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip
+0037.126 (0) Deleting local file: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip: OK
+0037.132 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0037.134 (0) Does not exist: /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/mu-plugins
+0037.135 (0) There are no mu-plugins to backup. Will not raise an error.
+0037.137 (0) mu-plugins: create_zip returned an error
+0037.141 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.143 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.144 (0) Looking for candidates to backup in: /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content
+0037.146 (0) finding files: upgrade: skipping: excluded by options
+0037.147 (0) finding files: index.php: adding to list (1)
+0037.149 (0) finding files: upgrade-temp-backup: adding to list (2)
+0037.150 (0) finding files: plugins: skipping: this is the plugins directory
+0037.152 (0) finding files: uploads: skipping: this is the uploads directory
+0037.153 (0) finding files: updraft: skipping: this is the updraft directory
+0037.155 (0) finding files: languages: adding to list (3)
+0037.156 (0) finding files: .git: adding to list (4)
+0037.157 (0) finding files: themes: skipping: this is the themes directory
+0037.219 (0) Total entities for the zip file: 109 directories, 228 files (0 skipped as non-modified), 97.5 MB
+0037.226 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.234 (0) Zip: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0040.175 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip.tmp: size is now: 94.60 MB
+0040.183 (0) Creating zip file manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip.list-temp.tmp)
+0040.186 (0) Successfully created zip file manifest (size: 13663)
+0041.789 (0) Created others zip (0) - 96918.9 KB in 4.6 s (20940.4 KB/s) (sha1: ced79b2c78b535c10563e27530e50866f220698f, sha256: f173c0fea3e64a535675488f63b4ae2233430c653d6064bd5739733dd8a0bde4)
+0041.793 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0041.794 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50c3e96049355265dc1d5f46cdb56f76)
+0042.099 (0) Google Drive: quota usage: used=1487.9 MB, total=15360 MB, available=13872.1 MB
+0042.101 (0) Google Drive: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0042.991 (0) Googledrive chunked upload: 1.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 50.4 / 56.5)
+0043.484 (0) Googledrive chunked upload: 3.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 50.4 / 56.5)
+0044.360 (0) Googledrive chunked upload: 7.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 50.4 / 56.5)
+0045.851 (0) Googledrive chunked upload: 15.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 50.4 / 56.5)
+0048.103 (0) Googledrive chunked upload: 32.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 50.4 / 56.5)
+0055.855 (0) Googledrive chunked upload: 66.6 % uploaded (66060288)
+0068.136 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0068.143 (0) Google Drive: OK: Archive backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip uploaded in 26.04 seconds
+0068.145 (0) Recording as successfully uploaded: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip
+0068.156 (0) Deleting local file: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip: OK
+0068.166 (0) Saving backup status to database (elements: 8)
+0068.171 (0) Beginning creation of database dump (WordPress DB)
+0068.173 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0068.181 (0) Testing potential mysqldump binary: /usr/local/bin/mysqldump
+0068.563 (0) Binary mysqldump: error (code: 2)
+0068.594 (0) Table wp_options: Total expected rows (via COUNT): 291
+0068.596 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.680 (0) Table wp_options: Rows added in this batch (next record: 1142): 287 (uncompressed bytes in this segment=1708574) in 0.09 seconds
+0068.687 (0) Table wp_options: finishing file(s) (2, 220.1 KB)
+0068.692 (0) Table wp_users: Total expected rows (via COUNT): 1
+0068.693 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.697 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1423) in 0.01 seconds
+0068.702 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0068.707 (0) Table wp_usermeta: Total expected rows (via COUNT): 29
+0068.708 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.712 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 29 (uncompressed bytes in this segment=3293) in 0.01 seconds
+0068.718 (0) Table wp_usermeta: finishing file(s) (2, 1.6 KB)
+0068.723 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0068.725 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.727 (0) Table wp_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=823) in 0.01 seconds
+0068.734 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0068.739 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0068.740 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.742 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2150) in 0.00 seconds
+0068.746 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0068.752 (0) Table wp_links: Total expected rows (via COUNT): 0
+0068.755 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0068.760 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0068.765 (0) Table wp_postmeta: Total expected rows (via COUNT): 296
+0068.766 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.776 (0) Table wp_postmeta: Rows added in this batch (next record: 432): 296 (uncompressed bytes in this segment=159474) in 0.01 seconds
+0068.782 (0) Table wp_postmeta: finishing file(s) (2, 23.2 KB)
+0068.787 (0) Table wp_posts: Total expected rows (via COUNT): 188
+0068.788 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.803 (0) Table wp_posts: Rows added in this batch (next record: 408): 188 (uncompressed bytes in this segment=136780) in 0.02 seconds
+0068.810 (0) Table wp_posts: finishing file(s) (2, 15.2 KB)
+0068.814 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0068.816 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=822) in 0.00 seconds
+0068.821 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0068.826 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0068.827 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.830 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1121) in 0.01 seconds
+0068.835 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0068.843 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0068.845 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0068.851 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0068.855 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0068.856 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.858 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=895) in 0.00 seconds
+0068.863 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0068.872 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 2
+0068.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.875 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 321): 2 (uncompressed bytes in this segment=2293) in 0.01 seconds
+0068.881 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0068.886 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0068.889 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.00 seconds
+0068.893 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0068.899 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0068.900 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.903 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=705) in 0.01 seconds
+0068.908 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0068.913 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 6
+0068.914 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.916 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 17): 6 (uncompressed bytes in this segment=1339) in 0.00 seconds
+0068.921 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0068.926 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 4
+0068.927 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.929 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=14377) in 0.00 seconds
+0068.935 (0) Table wp_aioseo_cache: finishing file(s) (2, 5.1 KB)
+0068.941 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 0
+0068.943 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1710) in 0.00 seconds
+0068.949 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+0068.954 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 0
+0068.956 (0) Table wp_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3643) in 0.00 seconds
+0068.961 (0) Table wp_aioseo_posts: finishing file(s) (2, 0.8 KB)
+0068.966 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 10
+0068.967 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.970 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=3076) in 0.00 seconds
+0068.974 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.9 KB)
+0068.978 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 8
+0068.979 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.982 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10034): 8 (uncompressed bytes in this segment=33964) in 0.00 seconds
+0068.986 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 6.9 KB)
+0068.992 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0068.994 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.00 seconds
+0068.998 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0069.004 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 7
+0069.005 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.012 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=92402) in 0.01 seconds
+0069.016 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 6.9 KB)
+0069.020 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 6
+0069.023 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=792) in 0.00 seconds
+0069.026 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0069.037 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 18
+0069.038 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.046 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 23): 18 (uncompressed bytes in this segment=220313) in 0.02 seconds
+0069.052 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 11.7 KB)
+0069.060 (0) Table wp_wpgmza: Total expected rows (via COUNT): 0
+0069.062 (0) Table wp_wpgmza: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1444) in 0.01 seconds
+0069.068 (0) Table wp_wpgmza: finishing file(s) (2, 0.5 KB)
+0069.076 (0) Table wp_wpgmza_admin_notices: Total expected rows (via COUNT): 0
+0069.078 (0) Table wp_wpgmza_admin_notices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.00 seconds
+0069.084 (0) Table wp_wpgmza_admin_notices: finishing file(s) (2, 0.4 KB)
+0069.089 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0069.091 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1182) in 0.00 seconds
+0069.095 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.5 KB)
+0069.101 (0) Table wp_wpgmza_image_overlays: Total expected rows (via COUNT): 0
+0069.102 (0) Table wp_wpgmza_image_overlays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.00 seconds
+0069.107 (0) Table wp_wpgmza_image_overlays: finishing file(s) (2, 0.4 KB)
+0069.115 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 1
+0069.116 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.119 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5497) in 0.01 seconds
+0069.125 (0) Table wp_wpgmza_maps: finishing file(s) (2, 1.8 KB)
+0069.130 (0) Table wp_wpgmza_point_labels: Total expected rows (via COUNT): 0
+0069.133 (0) Table wp_wpgmza_point_labels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0069.137 (0) Table wp_wpgmza_point_labels: finishing file(s) (2, 0.4 KB)
+0069.145 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0069.146 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1413) in 0.00 seconds
+0069.152 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.5 KB)
+0069.159 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0069.160 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.00 seconds
+0069.166 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0069.171 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0069.172 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.00 seconds
+0069.176 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.5 KB)
+0069.177 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/updraft/backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0069.179 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_options.table.tmpr1143.gz (1/34/fopen): adding to final database dump
+0069.184 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_options.table.gz (2/34/fopen): adding to final database dump
+0069.185 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_users.table.tmpr2.gz (3/34/fopen): adding to final database dump
+0069.186 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_users.table.gz (4/34/fopen): adding to final database dump
+0069.187 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_usermeta.table.tmpr31.gz (5/34/fopen): adding to final database dump
+0069.188 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_usermeta.table.gz (6/34/fopen): adding to final database dump
+0069.190 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_commentmeta.table.tmpr3.gz (7/34/fopen): adding to final database dump
+0069.191 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_commentmeta.table.gz (8/34/fopen): adding to final database dump
+0069.192 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_comments.table.tmpr2.gz (9/34/fopen): adding to final database dump
+0069.193 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_comments.table.gz (10/34/fopen): adding to final database dump
+0069.194 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_links.table.tmpr0.gz (11/34/fopen): adding to final database dump
+0069.195 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_links.table.gz (12/34/fopen): adding to final database dump
+0069.196 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_postmeta.table.tmpr433.gz (13/34/fopen): adding to final database dump
+0069.197 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_postmeta.table.gz (14/34/fopen): adding to final database dump
+0069.198 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_posts.table.tmpr409.gz (15/34/fopen): adding to final database dump
+0069.199 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_posts.table.gz (16/34/fopen): adding to final database dump
+0069.200 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_term_relationships.table.tmpr100001.gz (17/34/fopen): adding to final database dump
+0069.201 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_term_relationships.table.gz (18/34/fopen): adding to final database dump
+0069.202 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_term_taxonomy.table.tmpr7.gz (19/34/fopen): adding to final database dump
+0069.203 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_term_taxonomy.table.gz (20/34/fopen): adding to final database dump
+0069.204 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_termmeta.table.tmpr0.gz (21/34/fopen): adding to final database dump
+0069.205 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_termmeta.table.gz (22/34/fopen): adding to final database dump
+0069.206 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_terms.table.tmpr7.gz (23/34/fopen): adding to final database dump
+0069.207 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_terms.table.gz (24/34/fopen): adding to final database dump
+0069.208 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_actions.table.tmpr322.gz (25/34/fopen): adding to final database dump
+0069.209 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_actions.table.gz (26/34/fopen): adding to final database dump
+0069.210 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/34/fopen): adding to final database dump
+0069.212 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_claims.table.gz (28/34/fopen): adding to final database dump
+0069.213 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_groups.table.tmpr3.gz (29/34/fopen): adding to final database dump
+0069.214 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_groups.table.gz (30/34/fopen): adding to final database dump
+0069.215 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_logs.table.tmpr18.gz (31/34/fopen): adding to final database dump
+0069.216 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_actionscheduler_logs.table.gz (32/34/fopen): adding to final database dump
+0069.217 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_cache.table.tmpr5.gz (33/34/fopen): adding to final database dump
+0069.218 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_cache.table.gz (34/34/fopen): adding to final database dump
+0069.219 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_notifications.table.tmpr0.gz (35/34/fopen): adding to final database dump
+0069.220 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_notifications.table.gz (36/34/fopen): adding to final database dump
+0069.221 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_posts.table.tmpr0.gz (37/34/fopen): adding to final database dump
+0069.222 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_aioseo_posts.table.gz (38/34/fopen): adding to final database dump
+0069.223 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_image_storage.table.tmpr11.gz (39/34/fopen): adding to final database dump
+0069.224 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_image_storage.table.gz (40/34/fopen): adding to final database dump
+0069.225 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_section_storage.table.tmpr10035.gz (41/34/fopen): adding to final database dump
+0069.226 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_section_storage.table.gz (42/34/fopen): adding to final database dump
+0069.226 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (43/34/fopen): adding to final database dump
+0069.227 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_generators.table.gz (44/34/fopen): adding to final database dump
+0069.228 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_sliders.table.tmpr8.gz (45/34/fopen): adding to final database dump
+0069.230 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_sliders.table.gz (46/34/fopen): adding to final database dump
+0069.231 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (47/34/fopen): adding to final database dump
+0069.232 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (48/34/fopen): adding to final database dump
+0069.233 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_slides.table.tmpr24.gz (49/34/fopen): adding to final database dump
+0069.234 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_nextend2_smartslider3_slides.table.gz (50/34/fopen): adding to final database dump
+0069.235 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza.table.tmpr0.gz (51/34/fopen): adding to final database dump
+0069.236 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza.table.gz (52/34/fopen): adding to final database dump
+0069.237 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_admin_notices.table.tmpr0.gz (53/34/fopen): adding to final database dump
+0069.238 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_admin_notices.table.gz (54/34/fopen): adding to final database dump
+0069.239 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_circles.table.tmpr0.gz (55/34/fopen): adding to final database dump
+0069.240 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_circles.table.gz (56/34/fopen): adding to final database dump
+0069.241 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_image_overlays.table.tmpr0.gz (57/34/fopen): adding to final database dump
+0069.242 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_image_overlays.table.gz (58/34/fopen): adding to final database dump
+0069.243 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_maps.table.tmpr2.gz (59/34/fopen): adding to final database dump
+0069.243 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_maps.table.gz (60/34/fopen): adding to final database dump
+0069.244 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_point_labels.table.tmpr0.gz (61/34/fopen): adding to final database dump
+0069.245 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_point_labels.table.gz (62/34/fopen): adding to final database dump
+0069.246 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_polygon.table.tmpr0.gz (63/34/fopen): adding to final database dump
+0069.247 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_polygon.table.gz (64/34/fopen): adding to final database dump
+0069.248 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_polylines.table.tmpr0.gz (65/34/fopen): adding to final database dump
+0069.249 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_polylines.table.gz (66/34/fopen): adding to final database dump
+0069.250 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (67/34/fopen): adding to final database dump
+0069.251 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db-table-wp_wpgmza_rectangles.table.gz (68/34/fopen): adding to final database dump
+0069.261 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz: finished writing out complete database file (305.2 KB)
+0069.278 (0) Total database tables backed up: 34 (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz, size: 312600, sha1: 8a621b3aa671b91324c6c5f3f1ee64771c11bb65, sha256: 2ad73e942c3950a4086e4dc9a7cd106a90d194b70334b80d75c698a690b75138)
+0069.284 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip: plugins: This file has already been successfully uploaded
+0069.285 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip: themes: This file has already been successfully uploaded
+0069.286 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip: uploads: This file has already been successfully uploaded
+0069.287 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip: others: This file has already been successfully uploaded
+0069.288 (0) backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz: db: This file has not yet been successfully uploaded: will queue
+0069.289 (0) Saving backup history. Total backup size: 183 MB
+0069.291 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0069.295 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0069.296 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50c3e96049355265dc1d5f46cdb56f76)
+0069.574 (0) Google Drive: quota usage: used=1582.5 MB, total=15360 MB, available=13777.5 MB
+0069.577 (0) Google Drive: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0071.106 (0) Googledrive chunked upload: 100 % uploaded
+0071.114 (0) Google Drive: OK: Archive backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz uploaded in 1.54 seconds
+0071.117 (0) Recording as successfully uploaded: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz
+0071.122 (0) Deleting local file: backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-db.gz: OK
+0071.127 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0071.131 (0) Number of backup sets in history: 3; groups (db): 1
+0071.133 (0) Examining (for databases) backup set with group_id=0, nonce=3828edc4e813, datestamp=1710708832 (Mar 17 2024 20:53:52)
+0071.134 (0) This backup set is the backup set just made, so will not be deleted.
+0071.135 (0) Examining (for databases) backup set with group_id=0, nonce=ced956ffa76a, datestamp=1709698467 (Mar 06 2024 04:14:27)
+0071.135 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0071.136 (0) Examining (for databases) backup set with group_id=0, nonce=b99b22c5f02c, datestamp=1709106860 (Feb 28 2024 07:54:20)
+0071.137 (0) 1709106860: db: this set includes a database (backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-db.gz); db count is now 2
+0071.137 (0) 1709106860: db: over retain limit (2); will delete this database
+0073.224 (0) Google Drive: backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-db.gz: Deletion successful
+0073.233 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0073.235 (0) Number of backup sets in history: 3; groups (files): 1
+0073.236 (0) Examining (for files) backup set with nonce=3828edc4e813, datestamp=1710708832 (Mar 17 2024 20:53:52)
+0073.237 (0) This backup set is the backup set just made, so will not be deleted.
+0073.238 (0) This backup set is the backup set just made, so will not be deleted.
+0073.238 (0) This backup set is the backup set just made, so will not be deleted.
+0073.239 (0) This backup set is the backup set just made, so will not be deleted.
+0073.239 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.240 (0) Examining (for files) backup set with nonce=ced956ffa76a, datestamp=1709698467 (Mar 06 2024 04:14:27)
+0073.241 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.241 (0) Examining (for files) backup set with nonce=b99b22c5f02c, datestamp=1709106860 (Feb 28 2024 07:54:20)
+0073.241 (0) plugins: over retain limit (2); will delete this file entity
+0073.241 (0) themes: over retain limit (2); will delete this file entity
+0073.241 (0) uploads: over retain limit (2); will delete this file entity
+0073.241 (0) others: over retain limit (2); will delete this file entity
+0075.190 (0) Google Drive: backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-others.zip: Deletion successful
+0075.804 (0) Google Drive: backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-uploads.zip: Deletion successful
+0077.034 (0) Google Drive: backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-themes.zip: Deletion successful
+0077.982 (0) Google Drive: backup_2024-02-27-2354_localhost_ProjectValleylife_b99b22c5f02c-plugins.zip: Deletion successful
+0077.992 (0) This backup set is now empty; will remove from history
+0077.994 (0) Deleting log file (log.b99b22c5f02c.txt)
+0078.005 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0078.013 (0) Resume backup (3828edc4e813, 0): finish run
+0078.018 (0) Decremented the semaphore (fd) by 1
+0078.021 (0) Semaphore (fd) unlocked
+0078.022 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0078.029 (0) Deleting zip manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-plugins.zip.list.tmp)
+0078.030 (0) Deleting zip manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-themes.zip.list.tmp)
+0078.032 (0) Deleting zip manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-uploads.zip.list.tmp)
+0078.034 (0) Deleting zip manifest (backup_2024-03-17-1353_localhost_ProjectValleylife_3828edc4e813-others.zip.list.tmp)
+0078.035 (0) No email will/can be sent - the user has not configured an email address.
+0078.036 (0) The backup succeeded and is now complete
