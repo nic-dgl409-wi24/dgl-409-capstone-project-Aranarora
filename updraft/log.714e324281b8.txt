@@ -1,0 +1,203 @@
+0000.003 () Opened log file at time: Thu, 28 Mar 2024 21:46:27 +0000 on http://localhost:8888/Project-Valleylife
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.2.0 (apache2handler, Darwin Arans-MacBook-Air.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:10 PST 2023; root:xnu-10002.61.3~2/RELEASE_X86_64 x86_64) MySQL: 5.7.39 (max packet size=33554432) WPLANG: en_CA Server: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 67.3M | 68.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 341705.3 MB
+0000.050 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Thu, 28 Mar 2024 21:46:28 +0000 on http://localhost:8888/Project-Valleylife
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.2.0 (apache2handler, Darwin Arans-MacBook-Air.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:10 PST 2023; root:xnu-10002.61.3~2/RELEASE_X86_64 x86_64) MySQL: 5.7.39 (max packet size=33554432) WPLANG: en_CA Server: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.7M | 66.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 342008.2 MB
+0000.033 () Ensuring WP_Filesystem is setup for a restore
+0000.034 () WP_Filesystem is setup and ready for a restore
+0000.038 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_tec_events","wp_tec_occurrences","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_aioseo_cache","wp_aioseo_notifications","wp_aioseo_posts","wp_nextend2_image_storage","wp_nextend2_section_storage","wp_nextend2_smartslider3_generators","wp_nextend2_smartslider3_sliders","wp_nextend2_smartslider3_sliders_xref","wp_nextend2_smartslider3_slides","wp_wpgmza","wp_wpgmza_admin_notices","wp_wpgmza_circles","wp_wpgmza_image_overlays","wp_wpgmza_maps","wp_wpgmza_point_labels","wp_wpgmza_polygon","wp_wpgmza_polylines","wp_wpgmza_rectangles"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.039 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.045 () Entity: db
+0000.045 () restore_backup(backup_file=backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-db.gz, type=db, info=a:0:{}, last_one=)
+0000.045 () Unpacking backup... (backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-db.gz, 0.4 Mb)
+0000.045 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.049 () Database successfully unpacked
+0000.049 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.049 () Using direct MySQL access; value of use_mysqli is: 1
+0000.050 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.209 () Max packet size: 32 MB
+0000.209 () Entering maintenance mode
+0000.209 () Enabling Maintenance mode&#8230;
+0000.224 () Backup of: http://localhost:8888/Project-Valleylife
+0000.227 () Content URL: http://localhost:8888/Project-Valleylife/wp-content
+0000.227 () Uploads URL: http://localhost:8888/Project-Valleylife/wp-content/uploads
+0000.228 () Old table prefix: wp_
+0000.228 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.229 () Site information: multisite=0
+0000.229 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.231 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.231 () New table prefix: fv_
+0000.235 () Processing table (InnoDB): wp_options - will restore as: fv_options
+0000.373 () Atomic restore: dropping original table (wp_options)
+0000.385 () Atomic restore: renaming new table (fv_options) to final table name (wp_options)
+0000.388 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.398 () Processing table (InnoDB): wp_users - will restore as: fv_users
+0000.430 () Atomic restore: dropping original table (wp_users)
+0000.436 () Atomic restore: renaming new table (fv_users) to final table name (wp_users)
+0000.437 () Processing table (InnoDB): wp_usermeta - will restore as: fv_usermeta
+0000.471 () Atomic restore: dropping original table (wp_usermeta)
+0000.476 () Atomic restore: renaming new table (fv_usermeta) to final table name (wp_usermeta)
+0000.479 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: fv_actionscheduler_actions
+0000.517 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.529 () Atomic restore: renaming new table (fv_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.532 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: fv_actionscheduler_claims
+0000.565 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.580 () Atomic restore: renaming new table (fv_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.582 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: fv_actionscheduler_groups
+0000.612 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.619 () Atomic restore: renaming new table (fv_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.622 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: fv_actionscheduler_logs
+0000.655 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.660 () Atomic restore: renaming new table (fv_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.665 () Processing table (InnoDB): wp_commentmeta - will restore as: fv_commentmeta
+0000.703 () Atomic restore: dropping original table (wp_commentmeta)
+0000.708 () Atomic restore: renaming new table (fv_commentmeta) to final table name (wp_commentmeta)
+0000.711 () Processing table (InnoDB): wp_comments - will restore as: fv_comments
+0000.744 () Atomic restore: dropping original table (wp_comments)
+0000.750 () Atomic restore: renaming new table (fv_comments) to final table name (wp_comments)
+0000.753 () Processing table (InnoDB): wp_links - will restore as: fv_links
+0000.784 () Atomic restore: dropping original table (wp_links)
+0000.789 () Atomic restore: renaming new table (fv_links) to final table name (wp_links)
+0000.792 () Processing table (InnoDB): wp_postmeta - will restore as: fv_postmeta
+0000.857 () Atomic restore: dropping original table (wp_postmeta)
+0000.868 () Atomic restore: renaming new table (fv_postmeta) to final table name (wp_postmeta)
+0000.874 () Processing table (InnoDB): wp_posts - will restore as: fv_posts
+0000.938 () Atomic restore: dropping original table (wp_posts)
+0000.946 () Atomic restore: renaming new table (fv_posts) to final table name (wp_posts)
+0000.950 () Processing table (InnoDB): wp_tec_events - will restore as: fv_tec_events
+0000.981 () Atomic restore: dropping original table (wp_tec_events)
+0000.989 () Atomic restore: renaming new table (fv_tec_events) to final table name (wp_tec_events)
+0000.991 () Processing table (InnoDB): wp_tec_occurrences - will restore as: fv_tec_occurrences
+0001.024 () Atomic restore: dropping original table (wp_tec_occurrences)
+0001.029 () Atomic restore: renaming new table (fv_tec_occurrences) to final table name (wp_tec_occurrences)
+0001.031 () Processing table (InnoDB): wp_term_relationships - will restore as: fv_term_relationships
+0001.062 () Database queries processed: 50 in 1.01 seconds
+0001.063 () Atomic restore: dropping original table (wp_term_relationships)
+0001.069 () Atomic restore: renaming new table (fv_term_relationships) to final table name (wp_term_relationships)
+0001.072 () Processing table (InnoDB): wp_term_taxonomy - will restore as: fv_term_taxonomy
+0001.106 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.113 () Atomic restore: renaming new table (fv_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.117 () Processing table (InnoDB): wp_termmeta - will restore as: fv_termmeta
+0001.153 () Atomic restore: dropping original table (wp_termmeta)
+0001.162 () Atomic restore: renaming new table (fv_termmeta) to final table name (wp_termmeta)
+0001.167 () Processing table (InnoDB): wp_terms - will restore as: fv_terms
+0001.200 () Atomic restore: dropping original table (wp_terms)
+0001.206 () Atomic restore: renaming new table (fv_terms) to final table name (wp_terms)
+0001.210 () Processing table (InnoDB): wp_aioseo_cache - will restore as: fv_aioseo_cache
+0001.244 () Atomic restore: dropping original table (wp_aioseo_cache)
+0001.250 () Atomic restore: renaming new table (fv_aioseo_cache) to final table name (wp_aioseo_cache)
+0001.254 () Processing table (InnoDB): wp_aioseo_notifications - will restore as: fv_aioseo_notifications
+0001.291 () Atomic restore: dropping original table (wp_aioseo_notifications)
+0001.299 () Atomic restore: renaming new table (fv_aioseo_notifications) to final table name (wp_aioseo_notifications)
+0001.303 () Processing table (InnoDB): wp_aioseo_posts - will restore as: fv_aioseo_posts
+0001.336 () Atomic restore: dropping original table (wp_aioseo_posts)
+0001.343 () Atomic restore: renaming new table (fv_aioseo_posts) to final table name (wp_aioseo_posts)
+0001.348 () Processing table (InnoDB): wp_nextend2_image_storage - will restore as: fv_nextend2_image_storage
+0001.381 () Atomic restore: dropping original table (wp_nextend2_image_storage)
+0001.391 () Atomic restore: renaming new table (fv_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0001.395 () Processing table (InnoDB): wp_nextend2_section_storage - will restore as: fv_nextend2_section_storage
+0001.435 () Atomic restore: dropping original table (wp_nextend2_section_storage)
+0001.444 () Atomic restore: renaming new table (fv_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0001.448 () Processing table (InnoDB): wp_nextend2_smartslider3_generators - will restore as: fv_nextend2_smartslider3_generators
+0001.477 () Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0001.483 () Atomic restore: renaming new table (fv_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0001.486 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders - will restore as: fv_nextend2_smartslider3_sliders
+0001.532 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0001.540 () Atomic restore: renaming new table (fv_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0001.543 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref - will restore as: fv_nextend2_smartslider3_sliders_xref
+0001.575 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0001.581 () Atomic restore: renaming new table (fv_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0001.584 () Processing table (InnoDB): wp_nextend2_smartslider3_slides - will restore as: fv_nextend2_smartslider3_slides
+0001.633 () Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0001.641 () Atomic restore: renaming new table (fv_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0001.644 () Processing table (InnoDB): wp_wpgmza - will restore as: fv_wpgmza
+0001.672 () Atomic restore: dropping original table (wp_wpgmza)
+0001.678 () Atomic restore: renaming new table (fv_wpgmza) to final table name (wp_wpgmza)
+0001.681 () Processing table (InnoDB): wp_wpgmza_admin_notices - will restore as: fv_wpgmza_admin_notices
+0001.708 () Atomic restore: dropping original table (wp_wpgmza_admin_notices)
+0001.715 () Atomic restore: renaming new table (fv_wpgmza_admin_notices) to final table name (wp_wpgmza_admin_notices)
+0001.718 () Processing table (InnoDB): wp_wpgmza_circles - will restore as: fv_wpgmza_circles
+0001.746 () Atomic restore: dropping original table (wp_wpgmza_circles)
+0001.752 () Atomic restore: renaming new table (fv_wpgmza_circles) to final table name (wp_wpgmza_circles)
+0001.754 () Processing table (InnoDB): wp_wpgmza_image_overlays - will restore as: fv_wpgmza_image_overlays
+0001.781 () Atomic restore: dropping original table (wp_wpgmza_image_overlays)
+0001.785 () Atomic restore: renaming new table (fv_wpgmza_image_overlays) to final table name (wp_wpgmza_image_overlays)
+0001.787 () Processing table (InnoDB): wp_wpgmza_maps - will restore as: fv_wpgmza_maps
+0001.818 () Atomic restore: dropping original table (wp_wpgmza_maps)
+0001.823 () Atomic restore: renaming new table (fv_wpgmza_maps) to final table name (wp_wpgmza_maps)
+0001.825 () Processing table (InnoDB): wp_wpgmza_point_labels - will restore as: fv_wpgmza_point_labels
+0001.852 () Atomic restore: dropping original table (wp_wpgmza_point_labels)
+0001.858 () Atomic restore: renaming new table (fv_wpgmza_point_labels) to final table name (wp_wpgmza_point_labels)
+0001.860 () Processing table (InnoDB): wp_wpgmza_polygon - will restore as: fv_wpgmza_polygon
+0001.887 () Atomic restore: dropping original table (wp_wpgmza_polygon)
+0001.893 () Atomic restore: renaming new table (fv_wpgmza_polygon) to final table name (wp_wpgmza_polygon)
+0001.896 () Processing table (InnoDB): wp_wpgmza_polylines - will restore as: fv_wpgmza_polylines
+0001.924 () Atomic restore: dropping original table (wp_wpgmza_polylines)
+0001.929 () Database queries processed: 100 in 1.88 seconds
+0001.929 () Atomic restore: renaming new table (fv_wpgmza_polylines) to final table name (wp_wpgmza_polylines)
+0001.931 () Processing table (InnoDB): wp_wpgmza_rectangles - will restore as: fv_wpgmza_rectangles
+0001.956 () An error (1) occurred: Variable 'sql_mode' can't be set to the value of 'NULL' - SQL query was (type=0): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.980 () UpdraftVault: this site has not been connected - check your settings
+0003.405 () Unlocking database and leaving maintenance mode
+0003.405 () Disabling Maintenance mode&#8230;
+0003.406 () Atomic restore: dropping original table (wp_wpgmza_rectangles)
+0003.412 () Atomic restore: renaming new table (fv_wpgmza_rectangles) to final table name (wp_wpgmza_rectangles)
+0003.418 () Finished: lines processed: 104 in 3.37 seconds
+0003.419 () Cleaning up rubbish...
+0003.420 () Begin search and replace (updraftplus_restored_db)
+0003.420 () [Database-replace-site-url] Database: search and replace site URL
+0003.420 () This option was not selected.
+0003.433 () Entity: plugins
+0003.433 () restore_backup(backup_file=backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:98:"/Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0003.433 () Unpacking backup... (backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-plugins.zip, 23.3 MB)
+0003.436 () Unzipping backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-plugins.zip to /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/upgrade/9f663af7/ using UpdraftPlus_ZipArchive, starting index 0
+0005.548 () Unzip progress: 1248 out of 6295 files (5.3 KB, plugins/popup-maker/classes/Utils/Options.php)
+0005.946 () Unzip progress: 2249 out of 6295 files (9.1 MB, plugins/updraftplus/options.php)
+0006.500 () Unzip progress: 3250 out of 6295 files (34.1 MB, plugins/the-events-calendar/common/vendor/vendor-prefixed/lucatume/di52/src/Builders/ValueBuilder.php)
+0007.087 () Unzip progress: 4251 out of 6295 files (51.6 MB, plugins/the-events-calendar/src/resources/css/app/event-category/frontend.min.css)
+0007.493 () Unzip progress: 5252 out of 6295 files (59.2 MB, plugins/the-events-calendar/src/views/integrations/event-tickets/emails/template-parts/body/event/venue/website.php)
+0007.856 () Unzip progress: 6253 out of 6295 files (65.7 MB, plugins/the-events-calendar/src/deprecated/Tribe__Events__Template__Day.php)
+0007.874 () Unzip progress: 6295 out of 6295 files (65.7 MB, plugins/the-events-calendar/src/views/integrations/event-tickets/emails/template-parts/body/event/venue/address.php)
+0007.884 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.884 () Moving old data: can potentially use wp_filesystem method / -old
+0007.884 () Moving old data out of the way...
+0010.741 () Top-level entities being moved: smart-slider-3, popup-maker, create-block-theme, index.php, breadcrumb-navxt, easy-accordion-free, updraftplus, icon-block, the-events-calendar
+0010.745 () Moving unpacked backup into place...
+0013.428 () Top-level entities being moved: smart-slider-3, popup-maker, create-block-theme, index.php, breadcrumb-navxt, easy-accordion-free, updraftplus, icon-block, the-events-calendar
+0013.433 () Cleaning up rubbish...
+0013.436 () Entity: themes
+0013.436 () restore_backup(backup_file=backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-themes.zip, type=themes, info=a:3:{s:4:"path";s:97:"/Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0013.436 () Unpacking backup... (backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-themes.zip, 15.6 MB)
+0013.437 () Unzipping backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-themes.zip to /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/upgrade/3da1d9a4/ using UpdraftPlus_ZipArchive, starting index 0
+0013.927 () Unzip progress: 423 out of 423 files (18.3 MB, themes/index.php)
+0013.930 () Moving old data: filesystem method / updraft_dir is potentially possible
+0013.930 () Moving old data: can potentially use wp_filesystem method / -old
+0013.931 () Moving old data out of the way...
+0014.184 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentytwo, ValleyLife, twentytwentythree
+0014.186 () Moving unpacked backup into place...
+0014.355 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentytwo, ValleyLife, twentytwentythree
+0014.357 () Cleaning up rubbish...
+0014.361 () Entity: uploads
+0014.361 () restore_backup(backup_file=backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:98:"/Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0014.361 () Unpacking backup... (backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-uploads.zip, 88.7 MB)
+0014.362 () Unzipping backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-uploads.zip to /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/upgrade/cd42d97e/ using UpdraftPlus_ZipArchive, starting index 0
+0014.892 () Unzip progress: 308 out of 308 files (88.7 MB, uploads/2024/03/elisa-calvet-b-S3nUOqDmUvc-unsplash-300x200.jpg)
+0014.898 () Moving old data: filesystem method / updraft_dir is potentially possible
+0014.898 () Moving old data: can potentially use wp_filesystem method / -old
+0014.899 () Moving old data out of the way...
+0015.031 () Moving unpacked backup into place...
+0015.149 () Cleaning up rubbish...
+0015.154 () Entity: others
+0015.154 () restore_backup(backup_file=backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-others.zip, type=others, info=a:2:{s:4:"path";s:90:"/Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0015.155 () Unpacking backup... (backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-others.zip, 134.4 MB)
+0015.155 () Unzipping backup_2024-03-28-1427_localhost_ProjectValleylife_77dd4d618c9d-others.zip to /Users/aranpc/Desktop/409/dgl-409-capstone-project-Aranarora/Project-Valleylife/wp-content/upgrade/b7a737bd/ using UpdraftPlus_ZipArchive, starting index 0
+0016.805 () Unzip progress: 1002 out of 3426 files (13.1 MB, .git/objects/04/f753a20e37d788b66e0ea4d2bf38c8b1262d21)
+0017.223 () Unzip progress: 2003 out of 3426 files (28.9 MB, .git/objects/45/f9cc78ed7ab8de9768489a01bd7f7d7def2336)
+0017.904 () Unzip progress: 2413 out of 3426 files (128.9 MB, .git/objects/8c/28c0b1b01c047b67c9350aae8370fc4bee4b00)
+0018.293 () Unzip progress: 3414 out of 3426 files (136.8 MB, .git/objects/8b/0117223cbfa97659572d23d539ac10a88f672b)
+0018.298 () Unzip progress: 3426 out of 3426 files (136.8 MB, .git/objects/78/1bb7dfce5aedfe68ec06f1c1cf3d6a5728f90e)
+0018.338 () Cleaning up rubbish...
+0018.364 () Restore successful!
+0018.364 () Restore successful

@@ -1,0 +1,86 @@
+0000000000000000000000000000000000000000 367bc49136a86c953c3507ffe9e07fce82237cd7 Aranarora <aranarora007@gmail.com> 1707885560 -0800	commit (initial): Create the first readme file
+367bc49136a86c953c3507ffe9e07fce82237cd7 ce6bf5cae6953967f848cd4f2907f9906aa69492 Aranarora <aranarora007@gmail.com> 1708471408 -0800	commit: Install the Wordpress and setup the database
+ce6bf5cae6953967f848cd4f2907f9906aa69492 9462a06a3ea06ca4bacaf76f5a1802f3cc795ce8 Aranarora <aranarora007@gmail.com> 1708473042 -0800	commit: Remove the default plugins, Change time to Vancouver
+9462a06a3ea06ca4bacaf76f5a1802f3cc795ce8 5d10cf4610911596c3912ff169df27919a3795bd Aranarora <aranarora007@gmail.com> 1708473157 -0800	commit: Make the wp_debug to true
+5d10cf4610911596c3912ff169df27919a3795bd d8256d0d071f6c6b5451c068c2e5ae2fb2a76a7d Aranarora <aranarora007@gmail.com> 1708473360 -0800	commit: include default wp_content
+d8256d0d071f6c6b5451c068c2e5ae2fb2a76a7d 6b7f24720a0239a63a949f1ebc262a90f5b877b9 Aranarora <aranarora007@gmail.com> 1708475120 -0800	commit: Add the updraft plugin and set the schedule weekly 2
+6b7f24720a0239a63a949f1ebc262a90f5b877b9 f075fe2add99b9cf4a276167803fa4fda1a97eb1 Aranarora <aranarora007@gmail.com> 1708476291 -0800	commit: Add the style sheet in the valley life theme folder
+f075fe2add99b9cf4a276167803fa4fda1a97eb1 344e3ecf76b2ed5864a88c94616b3894ef8b86ff Aranarora <aranarora007@gmail.com> 1708480910 -0800	commit: Add the index file to make the theme block theme
+344e3ecf76b2ed5864a88c94616b3894ef8b86ff 0b908ca7b41178145834452bfebdfce6235f30d0 Aranarora <aranarora007@gmail.com> 1708480997 -0800	commit: Create the index.php file in the theme folder
+0b908ca7b41178145834452bfebdfce6235f30d0 f88af408db5ffb25b04eb21496cf84f60cc5d1b6 Aranarora <aranarora007@gmail.com> 1708487293 -0800	commit: Add the theme.json file to add new options in styles
+f88af408db5ffb25b04eb21496cf84f60cc5d1b6 d20bb1c70daa47ca50e80ce7621217cce8582fcc Aranarora <aranarora007@gmail.com> 1708487704 -0800	commit: Add the important design feature in json file
+d20bb1c70daa47ca50e80ce7621217cce8582fcc b04a3a77fca595cb7f59815a7f6fbd9411dcd7fc Aranarora <aranarora007@gmail.com> 1708489273 -0800	commit: Add the template folder and add index.html in it
+b04a3a77fca595cb7f59815a7f6fbd9411dcd7fc bef3cde39240ad077cbee002c7318fef5d5bac50 Aranarora <aranarora007@gmail.com> 1708490494 -0800	commit: Add the layout in the theme json file
+bef3cde39240ad077cbee002c7318fef5d5bac50 446d614c326ad2f51affbff73329647e3b9a97a1 Aranarora <aranarora007@gmail.com> 1708491891 -0800	commit: Turn on the color palette in theme json file
+446d614c326ad2f51affbff73329647e3b9a97a1 b34d7dda09b518a38e9579613220eaa154aa3889 Aranarora <aranarora007@gmail.com> 1708495771 -0800	commit: Add the color in the palette in the json file
+b34d7dda09b518a38e9579613220eaa154aa3889 5251cb798d8541146d9537b32575d2d9f8379ea5 Aranarora <aranarora007@gmail.com> 1708496812 -0800	commit: Add the fonts with create block theme plugin
+5251cb798d8541146d9537b32575d2d9f8379ea5 43c50805eba4c14316140e1473ad896cd67beed5 Aranarora <aranarora007@gmail.com> 1708498642 -0800	commit: Add the header in parts folder in theme folder
+43c50805eba4c14316140e1473ad896cd67beed5 40cbdfd8a49fe4de3fc45f822068d33821296195 Aranarora <aranarora007@gmail.com> 1708498692 -0800	commit: Update the header empty space in the header
+40cbdfd8a49fe4de3fc45f822068d33821296195 1b9f4b56e6eb5759eeb407c0a0ea9626f8dc3756 Aranarora <aranarora007@gmail.com> 1708498792 -0800	commit: Remove the header extra space in the header
+1b9f4b56e6eb5759eeb407c0a0ea9626f8dc3756 70b650da8f47979a4f1b4985516709369ef89d52 Aranarora <aranarora007@gmail.com> 1708499076 -0800	commit: Update the updraft plugin languages
+70b650da8f47979a4f1b4985516709369ef89d52 fd76164bd462d4088a9f8060f909221e601144f9 Aranarora <aranarora007@gmail.com> 1708500932 -0800	commit: Create the footer template part with links & icons
+fd76164bd462d4088a9f8060f909221e601144f9 2b7d38096065678ae4c5da1dc6dc4ed9dceb5f95 Aranarora <aranarora007@gmail.com> 1708508505 -0800	commit: Create the front page with cards and headings
+2b7d38096065678ae4c5da1dc6dc4ed9dceb5f95 e0900ad16274f80424251aeb0bd046fbfcaa3838 Aranarora <aranarora007@gmail.com> 1708543410 -0800	commit: Add the header and footer in front page in templates
+e0900ad16274f80424251aeb0bd046fbfcaa3838 40916a2b04bf6b2f331cb1296971d65db1a0da2f Aranarora <aranarora007@gmail.com> 1708543947 -0800	commit: Change the footer content length 920px wide
+40916a2b04bf6b2f331cb1296971d65db1a0da2f b0a7837d2fd9e7c1fde83b0a39633be590a9d3f7 Aranarora <aranarora007@gmail.com> 1708544035 -0800	commit: Make the header content length wide in 920px
+b0a7837d2fd9e7c1fde83b0a39633be590a9d3f7 c9d1a6bc53ee0e66ddba89609dde41df70619e73 Aranarora <aranarora007@gmail.com> 1708548313 -0800	commit: Change the header color and logo size
+c9d1a6bc53ee0e66ddba89609dde41df70619e73 92bda17bd3b4824bbcb9ec663e948d5be4bcfd5f Aranarora <aranarora007@gmail.com> 1708548470 -0800	commit: Change the heading and the text size
+92bda17bd3b4824bbcb9ec663e948d5be4bcfd5f ce99ca6e3643c4cfb91f42e3c2d9f37fb5a4f42f Aranarora <aranarora007@gmail.com> 1708548572 -0800	commit: Change the footer background color
+ce99ca6e3643c4cfb91f42e3c2d9f37fb5a4f42f 723777f3b3b65ef0948254909c2b02772def5d83 Aranarora <aranarora007@gmail.com> 1708551178 -0800	commit: Add the about us section in front page with image
+723777f3b3b65ef0948254909c2b02772def5d83 af6963c1eae031bf79029e441817a96e53948ed2 Aranarora <aranarora007@gmail.com> 1708554289 -0800	commit: Add the smart slide plugin to add the carousel
+af6963c1eae031bf79029e441817a96e53948ed2 785d8b4de25b07f0403462a7d75dd69b59495fe7 Aranarora <aranarora007@gmail.com> 1708560342 -0800	commit: Add the slider from smart slider to the front page
+785d8b4de25b07f0403462a7d75dd69b59495fe7 418e1a492ff16764b0a08c79f5b19952aef20bab Aranarora <aranarora007@gmail.com> 1708567232 -0800	commit: Add the cards in the front page relates to setteling
+418e1a492ff16764b0a08c79f5b19952aef20bab 8c8eceb157e7cd7f5fff6f6d420c98f38b5277ff Aranarora <aranarora007@gmail.com> 1708567254 -0800	commit: Change the content size to 1024px
+8c8eceb157e7cd7f5fff6f6d420c98f38b5277ff c90f8908bd1dff8328b49ce61cef84924da698cf Aranarora <aranarora007@gmail.com> 1708570286 -0800	commit: Make the join our event cards in the front screen
+c90f8908bd1dff8328b49ce61cef84924da698cf 879a84fa6ddbc535baaf55afefd19674a32b9d10 Aranarora <aranarora007@gmail.com> 1708570806 -0800	commit: Add the 404 page
+879a84fa6ddbc535baaf55afefd19674a32b9d10 c07cc0c8c52d3f949e2d2e105ec5d50e08fc5683 Aranarora <aranarora007@gmail.com> 1708573257 -0800	commit: Create the new header for make the carousel seprate
+c07cc0c8c52d3f949e2d2e105ec5d50e08fc5683 92c35bb3cbe8a9dd58883e34908175e32d295111 Aranarora <aranarora007@gmail.com> 1708573273 -0800	commit: Add the new travel page
+92c35bb3cbe8a9dd58883e34908175e32d295111 af68e715c93160415f3f53575de6633d2e3b631c Aranarora <aranarora007@gmail.com> 1708573292 -0800	commit: Make the changes in button global styles
+af68e715c93160415f3f53575de6633d2e3b631c 43f3b1b5b40d7f8a74c18c00cd251c2b0a12d0ba Aranarora <aranarora007@gmail.com> 1708573581 -0800	commit: Make travel page with cover image, header & footer
+43f3b1b5b40d7f8a74c18c00cd251c2b0a12d0ba 1668277699af9f728c98e4cd0a9dd0b22a277efa Aranarora <aranarora007@gmail.com> 1708574703 -0800	commit: Make the travel cover in the header as it works
+1668277699af9f728c98e4cd0a9dd0b22a277efa a628e0f6f0c8e3f4244bd9c2c92fd694b984ccce Aranarora <aranarora007@gmail.com> 1708629381 -0800	commit: Add the pop up maker plugin and working on popups
+a628e0f6f0c8e3f4244bd9c2c92fd694b984ccce b9e7c33ee5ebd3a566cb1008a0ebd2ec4d476dc1 Aranarora <aranarora007@gmail.com> 1709250482 -0800	commit: Add the images and make a backup of the site pages
+b9e7c33ee5ebd3a566cb1008a0ebd2ec4d476dc1 539903561bd42d78e0d07affd37401ef9680fa64 Aranarora <aranarora007@gmail.com> 1709525101 -0800	commit: Make the pop up maker content update
+539903561bd42d78e0d07affd37401ef9680fa64 bd59e80b297e83c70c1009df88bd24c123e6ee3b Aranarora <aranarora007@gmail.com> 1709526003 -0800	commit: Make the travel page save hard coded
+bd59e80b297e83c70c1009df88bd24c123e6ee3b 2b2105fa2d9a5f399a078645861170a73894c1f3 Aranarora <aranarora007@gmail.com> 1709527203 -0800	commit: Add new header to make a common one, add new page
+2b2105fa2d9a5f399a078645861170a73894c1f3 bd59e80b297e83c70c1009df88bd24c123e6ee3b Aranarora <aranarora007@gmail.com> 1709527231 -0800	reset: moving to bd59e80b297e83c70c1009df88bd24c123e6ee3b
+bd59e80b297e83c70c1009df88bd24c123e6ee3b 003293ef1e45587ee079bb70ca95f2b3eb768b46 Aranarora <aranarora007@gmail.com> 1709527261 -0800	commit: Add new header to make a common one, add new page
+003293ef1e45587ee079bb70ca95f2b3eb768b46 5a141a62dba7e7d3e8b66a499994b5a9ce815b1d Aranarora <aranarora007@gmail.com> 1709597240 -0800	commit: Add the breadcrumb and easy accordion plugin
+5a141a62dba7e7d3e8b66a499994b5a9ce815b1d 195bdb9edb91d2d4b6eb9542b5442ef2e035994b Aranarora <aranarora007@gmail.com> 1709597594 -0800	commit: Create the airlines page in the templates folder
+195bdb9edb91d2d4b6eb9542b5442ef2e035994b 63af06afc4df4704977f6e1a9ff4c628b3a9e102 Aranarora <aranarora007@gmail.com> 1709788719 -0800	commit: Update the travel page with image in information in it
+63af06afc4df4704977f6e1a9ff4c628b3a9e102 ba4e7f2cd5e2531acd4dcf7718eb2b7694f8da48 Aranarora <aranarora007@gmail.com> 1709790217 -0800	commit: Add the new template page for ferry information
+ba4e7f2cd5e2531acd4dcf7718eb2b7694f8da48 4e779221b2bac08ea20273c96ae55a84c998e781 Aranarora <aranarora007@gmail.com> 1709798258 -0800	commit: Make the new template page for City Transport
+4e779221b2bac08ea20273c96ae55a84c998e781 8978a6e111521ba2f4f864437e563221da03ae3a Aranarora <aranarora007@gmail.com> 1709835711 -0800	commit: Add the car rentals page template in the travel page
+8978a6e111521ba2f4f864437e563221da03ae3a ed4ea69405563e6b3958cb82fc3502dc63e108e5 Aranarora <aranarora007@gmail.com> 1709836749 -0800	commit: Add the template for bus services to add page in travel
+ed4ea69405563e6b3958cb82fc3502dc63e108e5 1c3b5083cb393192ba27351d6fc11a926731031a Aranarora <aranarora007@gmail.com> 1709837806 -0800	commit: Change the travel page hover color and size of header
+1c3b5083cb393192ba27351d6fc11a926731031a ed4a18c2799471d25bd87290ed05b39552e073be Aranarora <aranarora007@gmail.com> 1709837852 -0800	commit: Add the header and accordion to the bus services page
+ed4a18c2799471d25bd87290ed05b39552e073be f0424427c8e5bfe4183447aa4c2ead80ae457047 Aranarora <aranarora007@gmail.com> 1709837875 -0800	commit: Add the header and accordion to car rentals page
+f0424427c8e5bfe4183447aa4c2ead80ae457047 358d65607a775af44691ece42971927cc859a70e Aranarora <aranarora007@gmail.com> 1709837904 -0800	commit: Add the header and accordion to city transport page
+358d65607a775af44691ece42971927cc859a70e 2e801171083a3b4cfd60fc64fb22efd26226007a Aranarora <aranarora007@gmail.com> 1709837941 -0800	commit: Add header, footer, accordion to the ferry page
+2e801171083a3b4cfd60fc64fb22efd26226007a 8e0189dab1646c04bc137cf246e02c3584ee269b Aranarora <aranarora007@gmail.com> 1709837959 -0800	commit: Add the header, footer and accordion to the taxi page
+8e0189dab1646c04bc137cf246e02c3584ee269b 9bf60cf33f1e08afa45f46c6d09cfc8524e22b6b Aranarora <aranarora007@gmail.com> 1709837991 -0800	commit: Create new header for international students page
+9bf60cf33f1e08afa45f46c6d09cfc8524e22b6b ccc49aecf469f3e2042d52f841a40c67760b1c20 Aranarora <aranarora007@gmail.com> 1709838086 -0800	commit: Add the header and footer to int student page
+ccc49aecf469f3e2042d52f841a40c67760b1c20 5df003f2a521677402f48eb1749bb94c778d1159 Aranarora <aranarora007@gmail.com> 1710720798 -0700	commit: Make the templates for international student page
+5df003f2a521677402f48eb1749bb94c778d1159 a1038521f461ab82a87330a3b06cee55bfcca42b Aranarora <aranarora007@gmail.com> 1710720816 -0700	commit: Update the updraft plugin
+a1038521f461ab82a87330a3b06cee55bfcca42b 9deffeab67491fe42e3ac6c55da22a80118cec70 Aranarora <aranarora007@gmail.com> 1710738410 -0700	commit: Add the image in the local library and hard save it
+9deffeab67491fe42e3ac6c55da22a80118cec70 f4f79772c4668e0a8c8c514a9ea2583e2a822f99 Aranarora <aranarora007@gmail.com> 1710738429 -0700	commit: Add the logo and navigation in the header-1
+f4f79772c4668e0a8c8c514a9ea2583e2a822f99 a3724d5d631796495223f3e3490592bbdbb8f2ed Aranarora <aranarora007@gmail.com> 1710738545 -0700	commit: Make header for int-student update and hard save it
+a3724d5d631796495223f3e3490592bbdbb8f2ed 454bef092311c7f99f42029a964578dbe64c282e Aranarora <aranarora007@gmail.com> 1710738580 -0700	commit: Make the header-travel part to call it pattern
+454bef092311c7f99f42029a964578dbe64c282e 4ecc744e053760198b693a2477892fdef4576665 Aranarora <aranarora007@gmail.com> 1710739963 -0700	commit: Call the settling pattern in the settling header part
+4ecc744e053760198b693a2477892fdef4576665 f7825880af26d35df732498276723f380bc199d0 Aranarora <aranarora007@gmail.com> 1710740085 -0700	commit: Add cover image to header travel file, hard save it
+f7825880af26d35df732498276723f380bc199d0 03af81e2df13daa1e347aaca0aa3bb2e12782b25 Aranarora <aranarora007@gmail.com> 1710740227 -0700	commit: Add the cards and headings in the settling page
+03af81e2df13daa1e347aaca0aa3bb2e12782b25 a720d2f6c333997b7d55ea6e968a7742d59367a0 Aranarora <aranarora007@gmail.com> 1710740255 -0700	commit: Remove the pages that are not in use
+a720d2f6c333997b7d55ea6e968a7742d59367a0 e6908262df0cae1674e47a4a2d9a80526d33201a Aranarora <aranarora007@gmail.com> 1710740324 -0700	commit: Add about us page in templates, call header & footer
+e6908262df0cae1674e47a4a2d9a80526d33201a 8418768f5ea0a823c2490d9f4a8e08992e2b3d61 Aranarora <aranarora007@gmail.com> 1710740383 -0700	commit: Add the heading and the accordion in the page
+8418768f5ea0a823c2490d9f4a8e08992e2b3d61 71dd364f7ffbca973ac1d3ae22afc8a47488bff9 Aranarora <aranarora007@gmail.com> 1710740425 -0700	commit: Make international student page hard save
+71dd364f7ffbca973ac1d3ae22afc8a47488bff9 ab43f9a68709009670af472b5dbfebcdf8bcb728 Aranarora <aranarora007@gmail.com> 1710740469 -0700	commit: Add the settling pattern in the settling page
+ab43f9a68709009670af472b5dbfebcdf8bcb728 d2a46547dddc4c4105696a0e3da6f249cf1ac670 Aranarora <aranarora007@gmail.com> 1710740511 -0700	commit: Add service page with header & footer in template
+d2a46547dddc4c4105696a0e3da6f249cf1ac670 485b35db0d9a56465f3c693d611a230f3532c1f3 Aranarora <aranarora007@gmail.com> 1710746885 -0700	commit: Add the images to the cards in the services page
+485b35db0d9a56465f3c693d611a230f3532c1f3 bcc0eb4136abc69173e890ff2ea9116df483e5e2 Aranarora <aranarora007@gmail.com> 1710746917 -0700	commit: Change the header to the header-1 of services page
+bcc0eb4136abc69173e890ff2ea9116df483e5e2 485b35db0d9a56465f3c693d611a230f3532c1f3 Aranarora <aranarora007@gmail.com> 1710746949 -0700	reset: moving to 485b35db0d9a56465f3c693d611a230f3532c1f3
+485b35db0d9a56465f3c693d611a230f3532c1f3 653da48193e5344b7ba3f61709903388539a7be2 Aranarora <aranarora007@gmail.com> 1710746959 -0700	commit: Change the header to the header-1 of services page
+653da48193e5344b7ba3f61709903388539a7be2 2ce6cf5b6b887855a5e9c1b6aa2838081fc4c191 Aranarora <aranarora007@gmail.com> 1710747026 -0700	commit: Create the pages for settling with header and footer
+2ce6cf5b6b887855a5e9c1b6aa2838081fc4c191 161f93a11516ee49b36a142580b765421d76316e Aranarora <aranarora007@gmail.com> 1710747355 -0700	commit: Create pages with header and footer for services page
+161f93a11516ee49b36a142580b765421d76316e add9ea8b7c169cc20ee2fdf1eacc4a7f8a7e9102 Aranarora <aranarora007@gmail.com> 1710747398 -0700	commit: Add header and footer to event calendar template
+add9ea8b7c169cc20ee2fdf1eacc4a7f8a7e9102 11abe3dc4abb9929921351a948135001f7d8481b Aranarora <aranarora007@gmail.com> 1711609242 -0700	commit: Update the plugins and check that all are compatible
+11abe3dc4abb9929921351a948135001f7d8481b 8d8dcfff220d0724fb2104fadab86213a71d67ee Aranarora <aranarora007@gmail.com> 1711611299 -0700	commit: Change the about page header template part
