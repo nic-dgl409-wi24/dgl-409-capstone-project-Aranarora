@@ -1,0 +1,528 @@
+0000.000 (0) Opened log file at time: Fri, 29 Mar 2024 04:41:39 +0000 on https://dgl409.aarora.imgd.ca/ValleyLife
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 66.5M | 68.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.046 (0) Free space on disk containing Updraft's temporary directory: 62837.1 MB
+0000.051 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.055 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.065 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1711662880, seconds_ago=24419)
+0000.068 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-03-29 04:41:39
+0000.072 (0) Semaphore (fd, wp_options) reset to 1
+0000.075 (0) Set semaphore last lock (fd) time to 2024-03-29 04:41:39
+0000.077 (0) Semaphore lock (fd) complete
+0000.088 (0) Backup run: resumption=0, nonce=ddff089e7594, file_nonce=ddff089e7594 begun at=1711687299 (0s ago), job type=backup
+0000.092 (0) Scheduling a resumption (1) after 457 seconds (1711687756) in case this run gets aborted
+0000.108 (0) Checking if we have a zip executable available
+0000.110 (0) Testing: /usr/bin/zip
+0000.122 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.124 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.128 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.130 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.139 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.141 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.150 (0) Working binary zip found: /usr/bin/zip
+0000.155 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.157 (0) Creation of backups of directories: beginning
+0000.165 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.364 (0) Total entities for the zip file: 1247 directories, 5048 files (0 skipped as non-modified), 65.7 MB
+0000.367 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.371 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.379 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.382 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.385 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.388 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.391 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.394 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.397 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.399 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 5048 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.210 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: size is now: 2.90 MB
+0001.216 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1100 files added (on-disk size: 2999.1 KB)
+0001.220 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1200 files added (on-disk size: 2999.1 KB)
+0001.223 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1300 files added (on-disk size: 2999.1 KB)
+0001.227 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1400 files added (on-disk size: 2999.1 KB)
+0001.230 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1500 files added (on-disk size: 2999.1 KB)
+0001.233 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1600 files added (on-disk size: 2999.1 KB)
+0001.236 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1700 files added (on-disk size: 2999.1 KB)
+0001.239 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1800 files added (on-disk size: 2999.1 KB)
+0001.242 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 1900 files added (on-disk size: 2999.1 KB)
+0001.245 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2000 files added (on-disk size: 2999.1 KB)
+0001.248 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 5048 files batched, 1001 (2002) added so far); re-opening (prior size: 2999.1 KB)
+0002.309 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: size is now: 6.80 MB
+0002.316 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2100 files added (on-disk size: 6964.9 KB)
+0002.320 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2200 files added (on-disk size: 6964.9 KB)
+0002.323 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2300 files added (on-disk size: 6964.9 KB)
+0002.327 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2400 files added (on-disk size: 6964.9 KB)
+0002.332 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2500 files added (on-disk size: 6964.9 KB)
+0002.335 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2600 files added (on-disk size: 6964.9 KB)
+0002.339 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2700 files added (on-disk size: 6964.9 KB)
+0002.343 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2800 files added (on-disk size: 6964.9 KB)
+0002.346 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 2900 files added (on-disk size: 6964.9 KB)
+0002.349 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3000 files added (on-disk size: 6964.9 KB)
+0002.351 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.2 MB, 5048 files batched, 1001 (3003) added so far); re-opening (prior size: 6964.9 KB)
+0003.743 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: size is now: 13.20 MB
+0003.759 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3100 files added (on-disk size: 13539.8 KB)
+0003.764 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3200 files added (on-disk size: 13539.8 KB)
+0003.769 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3300 files added (on-disk size: 13539.8 KB)
+0003.774 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3400 files added (on-disk size: 13539.8 KB)
+0003.779 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3500 files added (on-disk size: 13539.8 KB)
+0003.784 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3600 files added (on-disk size: 13539.8 KB)
+0003.789 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3700 files added (on-disk size: 13539.8 KB)
+0003.793 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3800 files added (on-disk size: 13539.8 KB)
+0003.797 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 3900 files added (on-disk size: 13539.8 KB)
+0003.804 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4000 files added (on-disk size: 13539.8 KB)
+0003.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 5048 files batched, 1001 (4004) added so far); re-opening (prior size: 13539.8 KB)
+0005.153 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: size is now: 17.00 MB
+0005.170 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4100 files added (on-disk size: 17405.7 KB)
+0005.173 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4200 files added (on-disk size: 17405.7 KB)
+0005.176 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4300 files added (on-disk size: 17405.7 KB)
+0005.179 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4400 files added (on-disk size: 17405.7 KB)
+0005.184 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4500 files added (on-disk size: 17405.7 KB)
+0005.187 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4600 files added (on-disk size: 17405.7 KB)
+0005.191 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4700 files added (on-disk size: 17405.7 KB)
+0005.194 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4800 files added (on-disk size: 17405.7 KB)
+0005.198 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 4900 files added (on-disk size: 17405.7 KB)
+0005.201 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: 5000 files added (on-disk size: 17405.7 KB)
+0005.204 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 5048 files batched, 1001 (5005) added so far); re-opening (prior size: 17405.7 KB)
+0006.804 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.tmp: size is now: 22.80 MB
+0007.022 (0) Creating zip file manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.list-temp.tmp)
+0007.032 (0) Successfully created zip file manifest (size: 460059)
+0007.273 (0) Created plugins zip (0) - 23816.1 KB in 7.1 s (3371.4 KB/s) (sha1: 39424c2d5c195175fd919f0311b7b986089ef248, sha256: e6585ee315af298027037845368d9c3133fbdce54b3df7e3ec9b6c8860bc3635)
+0007.275 (0) Deleting old temporary file: log.a2ef9218adbd-browser.txt
+0007.286 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0007.290 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0008.144 (0) Google Drive: quota usage: used=2122 MB, total=15360 MB, available=13238 MB
+0008.149 (0) Google Drive: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0008.707 (0) Googledrive chunked upload: 4.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 70.4 / 78.5)
+0009.043 (0) Googledrive chunked upload: 12.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 70.4 / 78.5)
+0009.366 (0) Googledrive chunked upload: 30.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 70.4 / 78.5)
+0009.716 (0) Googledrive chunked upload: 64.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 70.4 / 78.5)
+0011.063 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0011.069 (0) Google Drive: OK: Archive backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip uploaded in 2.92 seconds
+0011.071 (0) Recording as successfully uploaded: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip
+0011.080 (0) Deleting local file: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip: OK
+0011.091 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.147 (0) Total entities for the zip file: 46 directories, 377 files (0 skipped as non-modified), 18.3 MB
+0011.150 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.154 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.158 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.008 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.tmp: size is now: 15.60 MB
+0012.017 (0) Creating zip file manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.list-temp.tmp)
+0012.020 (0) Successfully created zip file manifest (size: 26295)
+0012.195 (0) Created themes zip (0) - 16025 KB in 1.1 s (15092 KB/s) (sha1: a6347431a033f54ea08067907a2f23f8e86594a7, sha256: 71c4787b25c5d285c3f9a564d28c1985a691cd74764e2bab25d6383f82269e23)
+0012.202 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.204 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0012.376 (0) Google Drive: quota usage: used=2145.2 MB, total=15360 MB, available=13214.8 MB
+0012.379 (0) Google Drive: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0012.951 (0) Googledrive chunked upload: 6.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 69.5 / 78.5)
+0013.230 (0) Googledrive chunked upload: 19.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 69.6 / 78.5)
+0013.517 (0) Googledrive chunked upload: 44.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 69.6 / 78.5)
+0013.860 (0) Googledrive chunked upload: 95.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 69.6 / 78.5)
+0014.850 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0014.857 (0) Google Drive: OK: Archive backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip uploaded in 2.48 seconds
+0014.859 (0) Recording as successfully uploaded: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip
+0014.868 (0) Deleting local file: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip: OK
+0014.887 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.892 (0) Looking for candidates to backup in: /home/n0203885/public_html/dgl409.aarora.imgd.ca/ValleyLife/wp-content/uploads
+0014.898 (0) finding files: 2024: adding to list (1)
+0014.902 (0) finding files: pum: adding to list (2)
+0014.907 (0) finding files: slider: adding to list (3)
+0014.912 (0) finding files: slider2: adding to list (4)
+0014.922 (0) finding files: slider4: adding to list (5)
+0014.927 (0) finding files: slider5: adding to list (6)
+0014.932 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.033 (0) Total entities for the zip file: 20 directories, 294 files (0 skipped as non-modified), 88.7 MB
+0015.036 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 294 files batched, 58 (58) added so far); re-opening (prior size: 0 KB)
+0015.245 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.tmp: size is now: 25.40 MB
+0015.252 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 33349.3 KB/s)
+0015.257 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.78002405166626, normalised_time=0.76763182151119, max_time=15.253645896912, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0015.264 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.tmp: 100 files added (on-disk size: 26031.1 KB)
+0015.266 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.tmp: 200 files added (on-disk size: 26031.1 KB)
+0015.930 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.tmp: size is now: 88.70 MB
+0015.946 (0) Creating zip file manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.list-temp.tmp)
+0015.948 (0) Successfully created zip file manifest (size: 20062)
+0017.081 (0) Created uploads zip (0) - 90846.7 KB in 2.1 s (44002.4 KB/s) (sha1: 3f6e896fc5f86bce3f57a4d1cb8e4409cc7a86d6, sha256: 4eb8e1e67697ae18cf7eb9d8cf74e9826cbd26f473013e7d64d4a5d924de0595)
+0017.093 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.096 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0017.274 (0) Google Drive: quota usage: used=2160.9 MB, total=15360 MB, available=13199.1 MB
+0017.279 (0) Google Drive: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0017.872 (0) Googledrive chunked upload: 1.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 69.5 / 78.5)
+0018.141 (0) Googledrive chunked upload: 3.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 69.6 / 78.5)
+0018.451 (0) Googledrive chunked upload: 7.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 69.6 / 78.5)
+0018.811 (0) Googledrive chunked upload: 16.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 69.6 / 78.5)
+0019.283 (0) Googledrive chunked upload: 34.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 69.6 / 78.5)
+0020.031 (0) Googledrive chunked upload: 71 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 69.6 / 78.5)
+0021.606 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0021.618 (0) Google Drive: OK: Archive backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip uploaded in 4.34 seconds
+0021.623 (0) Recording as successfully uploaded: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip
+0021.656 (0) Deleting local file: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip: OK
+0021.666 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0021.668 (0) Does not exist: /home/n0203885/public_html/dgl409.aarora.imgd.ca/ValleyLife/wp-content/mu-plugins
+0021.671 (0) There are no mu-plugins to backup. Will not raise an error.
+0021.674 (0) mu-plugins: create_zip returned an error
+0021.680 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.682 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.684 (0) Looking for candidates to backup in: /home/n0203885/public_html/dgl409.aarora.imgd.ca/ValleyLife/wp-content
+0021.686 (0) finding files: plugins: skipping: this is the plugins directory
+0021.688 (0) finding files: themes: skipping: this is the themes directory
+0021.690 (0) finding files: uploads: skipping: this is the uploads directory
+0021.692 (0) finding files: upgrade: skipping: excluded by options
+0021.695 (0) finding files: updraft: skipping: this is the updraft directory
+0021.697 (0) finding files: .git: adding to list (1)
+0021.700 (0) finding files: .git-old: adding to list (2)
+0021.702 (0) finding files: languages: adding to list (3)
+0021.704 (0) finding files: languages-old-old: adding to list (4)
+0021.708 (0) finding files: languages-old: adding to list (5)
+0021.709 (0) finding files: plugins-old-old: adding to list (6)
+0021.711 (0) finding files: plugins-old: adding to list (7)
+0021.713 (0) finding files: themes-old-old: adding to list (8)
+0021.715 (0) finding files: themes-old: adding to list (9)
+0021.717 (0) finding files: upgrade-temp-backup: adding to list (10)
+0021.726 (0) finding files: upgrade-temp-backup-old: adding to list (11)
+0021.731 (0) finding files: uploads-old-old: adding to list (12)
+0021.733 (0) finding files: uploads-old: adding to list (13)
+0021.735 (0) finding files: index.php-old: adding to list (14)
+0021.738 (0) finding files: index.php: adding to list (15)
+0022.463 (0) Total entities for the zip file: 565 directories, 6370 files (0 skipped as non-modified), 276.7 MB
+0022.469 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.484 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.494 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.498 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.501 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.507 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.510 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.515 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0022.519 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0022.525 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0022.531 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 6370 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0023.646 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: size is now: 8.40 MB
+0023.652 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1100 files added (on-disk size: 8578.7 KB)
+0023.655 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1200 files added (on-disk size: 8578.7 KB)
+0023.659 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1300 files added (on-disk size: 8578.7 KB)
+0023.662 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1400 files added (on-disk size: 8578.7 KB)
+0023.665 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1500 files added (on-disk size: 8578.7 KB)
+0023.668 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1600 files added (on-disk size: 8578.7 KB)
+0023.671 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1700 files added (on-disk size: 8578.7 KB)
+0023.674 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1800 files added (on-disk size: 8578.7 KB)
+0023.677 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 1900 files added (on-disk size: 8578.7 KB)
+0023.680 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2000 files added (on-disk size: 8578.7 KB)
+0023.682 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.5 MB, 6370 files batched, 1001 (2002) added so far); re-opening (prior size: 8578.7 KB)
+0025.063 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: size is now: 26.10 MB
+0025.072 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2100 files added (on-disk size: 26707.3 KB)
+0025.076 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2200 files added (on-disk size: 26707.3 KB)
+0025.078 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2300 files added (on-disk size: 26707.3 KB)
+0025.082 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2400 files added (on-disk size: 26707.3 KB)
+0025.085 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2500 files added (on-disk size: 26707.3 KB)
+0025.088 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2600 files added (on-disk size: 26707.3 KB)
+0025.091 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2700 files added (on-disk size: 26707.3 KB)
+0025.094 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2800 files added (on-disk size: 26707.3 KB)
+0025.097 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 2900 files added (on-disk size: 26707.3 KB)
+0025.100 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3000 files added (on-disk size: 26707.3 KB)
+0025.103 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.2 MB, 6370 files batched, 1001 (3003) added so far); re-opening (prior size: 26707.3 KB)
+0026.362 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: size is now: 41.50 MB
+0026.372 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3100 files added (on-disk size: 42535.9 KB)
+0026.375 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3200 files added (on-disk size: 42535.9 KB)
+0026.379 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3300 files added (on-disk size: 42535.9 KB)
+0026.383 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3400 files added (on-disk size: 42535.9 KB)
+0026.386 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3500 files added (on-disk size: 42535.9 KB)
+0026.390 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3600 files added (on-disk size: 42535.9 KB)
+0026.394 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3700 files added (on-disk size: 42535.9 KB)
+0026.399 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3800 files added (on-disk size: 42535.9 KB)
+0026.402 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 3900 files added (on-disk size: 42535.9 KB)
+0026.407 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4000 files added (on-disk size: 42535.9 KB)
+0026.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (100.6 MB, 6370 files batched, 1001 (4004) added so far); re-opening (prior size: 42535.9 KB)
+0031.335 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: size is now: 141.60 MB
+0031.341 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4100 files added (on-disk size: 145034.8 KB)
+0031.344 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4200 files added (on-disk size: 145034.8 KB)
+0031.347 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4300 files added (on-disk size: 145034.8 KB)
+0031.349 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4400 files added (on-disk size: 145034.8 KB)
+0031.352 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4500 files added (on-disk size: 145034.8 KB)
+0031.355 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4600 files added (on-disk size: 145034.8 KB)
+0031.357 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4700 files added (on-disk size: 145034.8 KB)
+0031.361 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4800 files added (on-disk size: 145034.8 KB)
+0031.364 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 4900 files added (on-disk size: 145034.8 KB)
+0031.367 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5000 files added (on-disk size: 145034.8 KB)
+0031.369 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.5 MB, 6370 files batched, 1001 (5005) added so far); re-opening (prior size: 145034.8 KB)
+0033.038 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5100 files added (on-disk size: 163214.2 KB)
+0033.044 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5200 files added (on-disk size: 163214.2 KB)
+0033.048 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5300 files added (on-disk size: 163214.2 KB)
+0033.053 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5400 files added (on-disk size: 163214.2 KB)
+0033.059 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5500 files added (on-disk size: 163214.2 KB)
+0033.064 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5600 files added (on-disk size: 163214.2 KB)
+0033.068 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5700 files added (on-disk size: 163214.2 KB)
+0033.072 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5800 files added (on-disk size: 163214.2 KB)
+0033.075 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 5900 files added (on-disk size: 163214.2 KB)
+0033.079 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 6000 files added (on-disk size: 163214.2 KB)
+0033.081 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 6370 files batched, 1001 (6006) added so far); re-opening (prior size: 163214.2 KB)
+0037.102 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 6100 files added (on-disk size: 178917.9 KB)
+0037.107 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 6200 files added (on-disk size: 178917.9 KB)
+0037.111 (0) Zip: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: 6300 files added (on-disk size: 178917.9 KB)
+0041.846 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.tmp: size is now: 269.50 MB
+0041.905 (0) Creating zip file manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.list-temp.tmp)
+0041.922 (0) Successfully created zip file manifest (size: 432626)
+0045.407 (0) Created others zip (0) - 275969.5 KB in 23.6 s (11692.5 KB/s) (sha1: 2c8a7d72d5ac50e8a0110a13e4e1312443039be0, sha256: 2e9ccfd819751224442f403dc281a2301331b0ec0385ec7650bdc664df431a08)
+0045.421 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.423 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0045.615 (0) Google Drive: quota usage: used=2249.6 MB, total=15360 MB, available=13110.4 MB
+0045.618 (0) Google Drive: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0046.199 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 70.4 / 80.5)
+0046.477 (0) Googledrive chunked upload: 1.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 70.4 / 80.5)
+0046.771 (0) Googledrive chunked upload: 2.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 70.4 / 80.5)
+0047.109 (0) Googledrive chunked upload: 5.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 70.4 / 80.5)
+0047.623 (0) Googledrive chunked upload: 11.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 70.4 / 80.5)
+0048.299 (0) Googledrive chunked upload: 23.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 70.4 / 80.5)
+0049.787 (0) Googledrive chunked upload: 47.1 % uploaded (133169152)
+0051.007 (0) Googledrive chunked upload: 70.9 % uploaded (200278016)
+0052.251 (0) Googledrive chunked upload: 94.6 % uploaded (267386880)
+0053.415 (0) Googledrive chunked upload: 100 % uploaded (267386880)
+0053.422 (0) Google Drive: OK: Archive backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip uploaded in 7.8 seconds
+0053.424 (0) Recording as successfully uploaded: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip
+0053.499 (0) Deleting local file: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip: OK
+0053.514 (0) Saving backup status to database (elements: 8)
+0053.520 (0) Beginning creation of database dump (WordPress DB)
+0053.522 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0053.529 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0053.614 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1622 bytes total)
+0053.617 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0053.685 (0) Table wp_options: Total expected rows (via COUNT): 400
+0053.688 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.764 (0) Table wp_options: Rows added in this batch (next record: 2330): 395 (uncompressed bytes in this segment=1838526) in 0.13 seconds
+0053.775 (0) Table wp_options: finishing file(s) (2, 236.8 KB)
+0053.833 (0) Table wp_users: Total expected rows (via COUNT): 1
+0053.840 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.848 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1572) in 0.07 seconds
+0053.859 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0053.929 (0) Table wp_usermeta: Total expected rows (via COUNT): 32
+0053.932 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.942 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 32 (uncompressed bytes in this segment=4106) in 0.08 seconds
+0053.954 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0054.040 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 5
+0054.043 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.048 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 324): 5 (uncompressed bytes in this segment=3363) in 0.09 seconds
+0054.058 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0054.067 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0054.074 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0054.084 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0054.124 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0054.126 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.132 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=723) in 0.04 seconds
+0054.139 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0054.207 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 15
+0054.211 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.215 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 26): 15 (uncompressed bytes in this segment=2230) in 0.06 seconds
+0054.224 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0054.239 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0054.249 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.02 seconds
+0054.261 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0054.278 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0054.281 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.288 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2306) in 0.02 seconds
+0054.297 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0054.309 (0) Table wp_links: Total expected rows (via COUNT): 0
+0054.314 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0054.323 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0054.339 (0) Table wp_postmeta: Total expected rows (via COUNT): 467
+0054.341 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.372 (0) Table wp_postmeta: Rows added in this batch (next record: 645): 467 (uncompressed bytes in this segment=294079) in 0.04 seconds
+0054.385 (0) Table wp_postmeta: finishing file(s) (2, 46.8 KB)
+0054.487 (0) Table wp_posts: Total expected rows (via COUNT): 278
+0054.489 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.507 (0) Table wp_posts: Rows added in this batch (next record: 567): 278 (uncompressed bytes in this segment=291235) in 0.11 seconds
+0054.523 (0) Table wp_posts: finishing file(s) (2, 25 KB)
+0054.588 (0) Table wp_tec_events: Total expected rows (via COUNT): 1
+0054.591 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.598 (0) Table wp_tec_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1392) in 0.07 seconds
+0054.607 (0) Table wp_tec_events: finishing file(s) (2, 0.6 KB)
+0054.648 (0) Table wp_tec_occurrences: Total expected rows (via COUNT): 1
+0054.651 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.656 (0) Table wp_tec_occurrences: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1413) in 0.03 seconds
+0054.668 (0) Table wp_tec_occurrences: finishing file(s) (2, 0.6 KB)
+0054.676 (0) Table wp_term_relationships: Total expected rows (approximate): 28
+0054.684 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 28 (uncompressed bytes in this segment=1063) in 0.01 seconds
+0054.692 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0054.712 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0054.714 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.723 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1181) in 0.02 seconds
+0054.738 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0054.760 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0054.766 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.02 seconds
+0054.784 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0054.852 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0054.854 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.861 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=954) in 0.07 seconds
+0054.872 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0054.894 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 4
+0054.896 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.899 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=14417) in 0.02 seconds
+0054.909 (0) Table wp_aioseo_cache: finishing file(s) (2, 5.1 KB)
+0054.921 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 0
+0054.925 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1944) in 0.01 seconds
+0054.938 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.6 KB)
+0054.953 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 0
+0054.955 (0) Table wp_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=4385) in 0.01 seconds
+0054.966 (0) Table wp_aioseo_posts: finishing file(s) (2, 0.9 KB)
+0054.975 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 10
+0054.977 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.982 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=3138) in 0.01 seconds
+0054.990 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1 KB)
+0054.998 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 8
+0055.000 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.003 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10428): 8 (uncompressed bytes in this segment=32747) in 0.01 seconds
+0055.012 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 6.9 KB)
+0055.020 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0055.026 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=780) in 0.01 seconds
+0055.034 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0055.042 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 7
+0055.044 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.052 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=92724) in 0.01 seconds
+0055.062 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 6.9 KB)
+0055.071 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 6
+0055.078 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=780) in 0.01 seconds
+0055.086 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0055.102 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 18
+0055.104 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.114 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 23): 18 (uncompressed bytes in this segment=219884) in 0.02 seconds
+0055.131 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 11.8 KB)
+0055.157 (0) Table wp_wpgmza: Total expected rows (via COUNT): 0
+0055.163 (0) Table wp_wpgmza: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1719) in 0.02 seconds
+0055.176 (0) Table wp_wpgmza: finishing file(s) (2, 0.5 KB)
+0055.188 (0) Table wp_wpgmza_admin_notices: Total expected rows (via COUNT): 0
+0055.191 (0) Table wp_wpgmza_admin_notices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.01 seconds
+0055.204 (0) Table wp_wpgmza_admin_notices: finishing file(s) (2, 0.4 KB)
+0055.214 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0055.216 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1325) in 0.01 seconds
+0055.225 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.5 KB)
+0055.240 (0) Table wp_wpgmza_image_overlays: Total expected rows (via COUNT): 0
+0055.243 (0) Table wp_wpgmza_image_overlays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=743) in 0.01 seconds
+0055.252 (0) Table wp_wpgmza_image_overlays: finishing file(s) (2, 0.4 KB)
+0055.267 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 1
+0055.269 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.275 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5757) in 0.02 seconds
+0055.287 (0) Table wp_wpgmza_maps: finishing file(s) (2, 1.8 KB)
+0055.295 (0) Table wp_wpgmza_point_labels: Total expected rows (via COUNT): 0
+0055.300 (0) Table wp_wpgmza_point_labels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0055.309 (0) Table wp_wpgmza_point_labels: finishing file(s) (2, 0.4 KB)
+0055.321 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0055.324 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1710) in 0.01 seconds
+0055.336 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.5 KB)
+0055.347 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0055.350 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=931) in 0.01 seconds
+0055.363 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0055.371 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0055.374 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1345) in 0.01 seconds
+0055.382 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.5 KB)
+0055.384 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/n0203885/public_html/dgl409.aarora.imgd.ca/ValleyLife/wp-content/updraft/backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0055.386 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_options.table.tmpr2331.gz (1/36/fopen): adding to final database dump
+0055.390 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_options.table.gz (2/36/fopen): adding to final database dump
+0055.391 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_users.table.tmpr2.gz (3/36/fopen): adding to final database dump
+0055.393 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_users.table.gz (4/36/fopen): adding to final database dump
+0055.395 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_usermeta.table.tmpr34.gz (5/36/fopen): adding to final database dump
+0055.397 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_usermeta.table.gz (6/36/fopen): adding to final database dump
+0055.400 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_actions.table.tmpr325.gz (7/36/fopen): adding to final database dump
+0055.402 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_actions.table.gz (8/36/fopen): adding to final database dump
+0055.404 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/36/fopen): adding to final database dump
+0055.405 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_claims.table.gz (10/36/fopen): adding to final database dump
+0055.407 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/36/fopen): adding to final database dump
+0055.409 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_groups.table.gz (12/36/fopen): adding to final database dump
+0055.411 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_logs.table.tmpr27.gz (13/36/fopen): adding to final database dump
+0055.414 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_actionscheduler_logs.table.gz (14/36/fopen): adding to final database dump
+0055.415 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_commentmeta.table.tmpr0.gz (15/36/fopen): adding to final database dump
+0055.417 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_commentmeta.table.gz (16/36/fopen): adding to final database dump
+0055.419 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_comments.table.tmpr2.gz (17/36/fopen): adding to final database dump
+0055.422 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_comments.table.gz (18/36/fopen): adding to final database dump
+0055.424 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_links.table.tmpr0.gz (19/36/fopen): adding to final database dump
+0055.426 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_links.table.gz (20/36/fopen): adding to final database dump
+0055.429 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_postmeta.table.tmpr646.gz (21/36/fopen): adding to final database dump
+0055.432 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_postmeta.table.gz (22/36/fopen): adding to final database dump
+0055.433 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_posts.table.tmpr568.gz (23/36/fopen): adding to final database dump
+0055.435 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_posts.table.gz (24/36/fopen): adding to final database dump
+0055.437 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_tec_events.table.tmpr2.gz (25/36/fopen): adding to final database dump
+0055.439 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_tec_events.table.gz (26/36/fopen): adding to final database dump
+0055.441 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_tec_occurrences.table.tmpr2.gz (27/36/fopen): adding to final database dump
+0055.444 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_tec_occurrences.table.gz (28/36/fopen): adding to final database dump
+0055.446 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_term_relationships.table.tmpr100001.gz (29/36/fopen): adding to final database dump
+0055.448 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_term_relationships.table.gz (30/36/fopen): adding to final database dump
+0055.450 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_term_taxonomy.table.tmpr8.gz (31/36/fopen): adding to final database dump
+0055.451 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_term_taxonomy.table.gz (32/36/fopen): adding to final database dump
+0055.453 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_termmeta.table.tmpr0.gz (33/36/fopen): adding to final database dump
+0055.455 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_termmeta.table.gz (34/36/fopen): adding to final database dump
+0055.457 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_terms.table.tmpr8.gz (35/36/fopen): adding to final database dump
+0055.459 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_terms.table.gz (36/36/fopen): adding to final database dump
+0055.461 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_cache.table.tmpr5.gz (37/36/fopen): adding to final database dump
+0055.462 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_cache.table.gz (38/36/fopen): adding to final database dump
+0055.465 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_notifications.table.tmpr0.gz (39/36/fopen): adding to final database dump
+0055.467 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_notifications.table.gz (40/36/fopen): adding to final database dump
+0055.469 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_posts.table.tmpr0.gz (41/36/fopen): adding to final database dump
+0055.470 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_aioseo_posts.table.gz (42/36/fopen): adding to final database dump
+0055.472 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_image_storage.table.tmpr11.gz (43/36/fopen): adding to final database dump
+0055.479 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_image_storage.table.gz (44/36/fopen): adding to final database dump
+0055.482 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_section_storage.table.tmpr10429.gz (45/36/fopen): adding to final database dump
+0055.484 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_section_storage.table.gz (46/36/fopen): adding to final database dump
+0055.486 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (47/36/fopen): adding to final database dump
+0055.488 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_generators.table.gz (48/36/fopen): adding to final database dump
+0055.490 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_sliders.table.tmpr8.gz (49/36/fopen): adding to final database dump
+0055.493 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_sliders.table.gz (50/36/fopen): adding to final database dump
+0055.495 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (51/36/fopen): adding to final database dump
+0055.496 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (52/36/fopen): adding to final database dump
+0055.498 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_slides.table.tmpr24.gz (53/36/fopen): adding to final database dump
+0055.500 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_nextend2_smartslider3_slides.table.gz (54/36/fopen): adding to final database dump
+0055.502 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza.table.tmpr0.gz (55/36/fopen): adding to final database dump
+0055.504 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza.table.gz (56/36/fopen): adding to final database dump
+0055.506 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_admin_notices.table.tmpr0.gz (57/36/fopen): adding to final database dump
+0055.508 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_admin_notices.table.gz (58/36/fopen): adding to final database dump
+0055.510 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_circles.table.tmpr0.gz (59/36/fopen): adding to final database dump
+0055.512 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_circles.table.gz (60/36/fopen): adding to final database dump
+0055.515 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_image_overlays.table.tmpr0.gz (61/36/fopen): adding to final database dump
+0055.517 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_image_overlays.table.gz (62/36/fopen): adding to final database dump
+0055.519 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_maps.table.tmpr2.gz (63/36/fopen): adding to final database dump
+0055.522 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_maps.table.gz (64/36/fopen): adding to final database dump
+0055.527 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_point_labels.table.tmpr0.gz (65/36/fopen): adding to final database dump
+0055.530 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_point_labels.table.gz (66/36/fopen): adding to final database dump
+0055.532 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_polygon.table.tmpr0.gz (67/36/fopen): adding to final database dump
+0055.534 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_polygon.table.gz (68/36/fopen): adding to final database dump
+0055.536 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_polylines.table.tmpr0.gz (69/36/fopen): adding to final database dump
+0055.538 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_polylines.table.gz (70/36/fopen): adding to final database dump
+0055.541 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (71/36/fopen): adding to final database dump
+0055.543 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db-table-wp_wpgmza_rectangles.table.gz (72/36/fopen): adding to final database dump
+0055.549 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz: finished writing out complete database file (356.9 KB)
+0055.571 (0) Total database tables backed up: 36 (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz, size: 365552, sha1: 49675d23e4125942005f345748e7e837769e2fe6, sha256: e284e87531b02f2e6cb3b24893efdc8782568dc4711769c45be761dc839b6d80)
+0055.584 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip: plugins: This file has already been successfully uploaded
+0055.586 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip: themes: This file has already been successfully uploaded
+0055.588 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip: uploads: This file has already been successfully uploaded
+0055.590 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip: others: This file has already been successfully uploaded
+0055.592 (0) backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz: db: This file has not yet been successfully uploaded: will queue
+0055.593 (0) Saving backup history. Total backup size: 397.5 MB
+0055.599 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0055.611 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0055.613 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0055.799 (0) Google Drive: quota usage: used=2519.1 MB, total=15360 MB, available=12840.9 MB
+0055.801 (0) Google Drive: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0057.111 (0) Googledrive chunked upload: 100 % uploaded
+0057.121 (0) Google Drive: OK: Archive backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz uploaded in 1.32 seconds
+0057.123 (0) Recording as successfully uploaded: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz
+0057.128 (0) Deleting local file: backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-db.gz: OK
+0057.133 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0057.135 (0) Number of backup sets in history: 2; groups (db): 1
+0057.137 (0) Examining (for databases) backup set with group_id=0, nonce=ddff089e7594, datestamp=1711687299 (Mar 29 2024 04:41:39)
+0057.139 (0) This backup set is the backup set just made, so will not be deleted.
+0057.139 (0) Examining (for databases) backup set with group_id=0, nonce=6e82a8aac80a, datestamp=1711652040 (Mar 28 2024 18:54:00)
+0057.139 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.140 (0) Number of backup sets in history: 2; groups (files): 1
+0057.142 (0) Examining (for files) backup set with nonce=ddff089e7594, datestamp=1711687299 (Mar 29 2024 04:41:39)
+0057.142 (0) This backup set is the backup set just made, so will not be deleted.
+0057.144 (0) This backup set is the backup set just made, so will not be deleted.
+0057.144 (0) This backup set is the backup set just made, so will not be deleted.
+0057.144 (0) This backup set is the backup set just made, so will not be deleted.
+0057.144 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.146 (0) Examining (for files) backup set with nonce=6e82a8aac80a, datestamp=1711652040 (Mar 28 2024 18:54:00)
+0057.146 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.146 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0057.150 (0) Resume backup (ddff089e7594, 0): finish run
+0057.157 (0) Decremented the semaphore (fd) by 1
+0057.162 (0) Semaphore (fd) unlocked
+0057.164 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0057.171 (0) Deleting zip manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-plugins.zip.list.tmp)
+0057.173 (0) Deleting zip manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-themes.zip.list.tmp)
+0057.175 (0) Deleting zip manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-uploads.zip.list.tmp)
+0057.177 (0) Deleting zip manifest (backup_2024-03-28-2141_dgl409aaroraimgdca_ValleyLife_ddff089e7594-others.zip.list.tmp)
+0057.179 (0) No email will/can be sent - the user has not configured an email address.
+0057.181 (0) The backup succeeded and is now complete
