@@ -342,6 +342,7 @@
 				}
 			}
 		},
+		"css": ".wp-block-button__link:hover{\n  color: #FFFFFF; \nborder: 2px solid #FFFFFF;\n\n}\n.wp-block-navigation-item:hover{\ncolor: #A1AC4E;\n}\n\n.wp-block-button__link:hover {\ncolor: #E03854;\n  background: #0D0407; \n   \n} \n",
 		"elements": {
 			"button": {
 				"typography": {
@@ -409,7 +410,8 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--lato)",
-					"textDecoration": "none"
+					"fontSize": "20px",
+					"textDecoration": "underline"
 				}
 			}
 		},

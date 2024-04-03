@@ -9,8 +9,8 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80);padding-top:0;padding-bottom:0"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">Settling</h2>
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80);padding-top:0;padding-bottom:0"><!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left">Settling</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
@@ -32,8 +32,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"full","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons alignfull"><!-- wp:button {"textColor":"primary","width":100,"style":{"border":{"radius":"100px"}},"className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" style="border-radius:100px">More Info</a></div>
+<div class="wp-block-buttons alignfull"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","width":100,"style":{"border":{"radius":"100px"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background wp-element-button" href="/ValleyLife/settling/accommodation/" style="border-radius:100px"><strong>More Info</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -56,8 +56,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"full","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons alignfull"><!-- wp:button {"backgroundColor":"base","textColor":"primary","width":100,"style":{"border":{"radius":"100px"}},"className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" style="border-radius:100px">More Info</a></div>
+<div class="wp-block-buttons alignfull"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","width":100,"style":{"border":{"radius":"100px"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background wp-element-button" href="/ValleyLife/settling/local-job/" style="border-radius:100px"><strong>More Info</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -76,12 +76,12 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Providing essential information and resources, including visa guidance and academic support for international students and newcomers.</p>
+<p class="has-text-align-center">Providing essential information and resources, library card and academic support for all students and newcomers.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"full","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons alignfull"><!-- wp:button {"textColor":"primary","width":100,"style":{"border":{"radius":"100px","width":"2px"}},"borderColor":"primary","className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color has-border-color has-primary-border-color wp-element-button" style="border-width:2px;border-radius:100px">More Info</a></div>
+<div class="wp-block-buttons alignfull"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","width":100,"style":{"border":{"radius":"100px","width":"2px"}},"borderColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-border-color has-primary-border-color wp-element-button" href="/ValleyLife/settling/education-resources/" style="border-width:2px;border-radius:100px"><strong>More Info</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -103,8 +103,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color has-link-color wp-element-button">Continue Reading</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-link-color wp-element-button" href="/ValleyLife/about-us/"><strong>Continue Reading</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:media-text --></div>
@@ -118,8 +118,8 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}}} -->
-<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":102,"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/dylan-shaw-6zjswHYP4zE-unsplash-1024x683.jpg" alt="" class="wp-image-102" style="object-fit:cover"/></figure>
+<div class="wp-block-column has-text-color has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:image {"id":102,"scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/dylan-shaw-6zjswHYP4zE-unsplash-scaled.jpg" alt="" class="wp-image-102" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"28px"}}} -->

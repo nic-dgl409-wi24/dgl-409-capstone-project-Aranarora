@@ -1,0 +1,280 @@
+0000.007 (0) Opened log file at time: Tue, 02 Apr 2024 23:01:31 +0000 on https://dgl409.aarora.imgd.ca/ValleyLife
+0000.016 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 62.6M | 64.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.076 (0) Free space on disk containing Updraft's temporary directory: 58839.2 MB
+0000.084 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.086 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.102 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1712000697, seconds_ago=98194)
+0000.111 (0) Set semaphore last lock (d) time to 2024-04-02 23:01:31
+0000.113 (0) Semaphore lock (d) complete
+0000.122 (0) Backup run: resumption=0, nonce=3179346a2937, file_nonce=3179346a2937 begun at=1712098891 (0s ago), job type=backup
+0000.127 (0) Scheduling a resumption (1) after 300 seconds (1712099191) in case this run gets aborted
+0000.149 (0) This backup run is not intended for files - skipping
+0000.153 (0) Beginning creation of database dump (WordPress DB)
+0000.156 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.161 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.233 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1622 bytes total)
+0000.237 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.568 (0) Table wp_options: Total expected rows (via COUNT): 418
+0000.570 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.730 (0) Table wp_options: Rows added in this batch (next record: 2759): 414 (uncompressed bytes in this segment=2356833) in 0.47 seconds
+0000.741 (0) Table wp_options: finishing file(s) (2, 295.3 KB)
+0000.751 (0) Table wp_users: Total expected rows (via COUNT): 1
+0000.758 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.764 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1572) in 0.02 seconds
+0000.772 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.784 (0) Table wp_usermeta: Total expected rows (via COUNT): 32
+0000.786 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.790 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 32 (uncompressed bytes in this segment=3521) in 0.01 seconds
+0000.801 (0) Table wp_usermeta: finishing file(s) (2, 1.6 KB)
+0000.813 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 13
+0000.815 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.820 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 338): 13 (uncompressed bytes in this segment=6972) in 0.01 seconds
+0000.832 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0000.838 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.845 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.01 seconds
+0000.852 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.861 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0000.864 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.868 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=743) in 0.01 seconds
+0000.875 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.892 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 39
+0000.894 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.901 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 63): 39 (uncompressed bytes in this segment=4302) in 0.02 seconds
+0000.912 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0000.927 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.936 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.02 seconds
+0000.947 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.965 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0000.967 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.973 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2306) in 0.02 seconds
+0000.982 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0000.997 (0) Table wp_links: Total expected rows (via COUNT): 0
+0001.002 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0001.010 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.022 (0) Table wp_postmeta: Total expected rows (via COUNT): 488
+0001.025 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.044 (0) Table wp_postmeta: Rows added in this batch (next record: 683): 488 (uncompressed bytes in this segment=305776) in 0.03 seconds
+0001.057 (0) Table wp_postmeta: finishing file(s) (2, 50 KB)
+0001.073 (0) Table wp_posts: Total expected rows (via COUNT): 292
+0001.075 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.087 (0) Table wp_posts: Rows added in this batch (next record: 628): 292 (uncompressed bytes in this segment=185601) in 0.02 seconds
+0001.100 (0) Table wp_posts: finishing file(s) (2, 22.2 KB)
+0001.113 (0) Table wp_tec_events: Total expected rows (via COUNT): 1
+0001.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.127 (0) Table wp_tec_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1392) in 0.02 seconds
+0001.135 (0) Table wp_tec_events: finishing file(s) (2, 0.6 KB)
+0001.146 (0) Table wp_tec_occurrences: Total expected rows (via COUNT): 1
+0001.149 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.152 (0) Table wp_tec_occurrences: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1413) in 0.01 seconds
+0001.165 (0) Table wp_tec_occurrences: finishing file(s) (2, 0.6 KB)
+0001.173 (0) Table wp_term_relationships: Total expected rows (approximate): 11
+0001.180 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 11 (uncompressed bytes in this segment=825) in 0.01 seconds
+0001.195 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0001.211 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0001.213 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.220 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1180) in 0.02 seconds
+0001.231 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0001.244 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0001.249 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0001.262 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.270 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0001.273 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.278 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=954) in 0.01 seconds
+0001.286 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0001.300 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 4
+0001.302 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.305 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=14417) in 0.01 seconds
+0001.317 (0) Table wp_aioseo_cache: finishing file(s) (2, 5.1 KB)
+0001.331 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 0
+0001.335 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1944) in 0.01 seconds
+0001.345 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.6 KB)
+0001.361 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 0
+0001.364 (0) Table wp_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=4385) in 0.01 seconds
+0001.377 (0) Table wp_aioseo_posts: finishing file(s) (2, 0.9 KB)
+0001.392 (0) Table wp_frmt_form_entry: Total expected rows (via COUNT): 0
+0001.395 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=845) in 0.01 seconds
+0001.405 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.4 KB)
+0001.418 (0) Table wp_frmt_form_entry_meta: Total expected rows (via COUNT): 0
+0001.422 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=894) in 0.01 seconds
+0001.432 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0001.445 (0) Table wp_frmt_form_reports: Total expected rows (via COUNT): 1
+0001.447 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.454 (0) Table wp_frmt_form_reports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1397) in 0.01 seconds
+0001.463 (0) Table wp_frmt_form_reports: finishing file(s) (2, 0.7 KB)
+0001.474 (0) Table wp_frmt_form_views: Total expected rows (via COUNT): 0
+0001.479 (0) Table wp_frmt_form_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=936) in 0.01 seconds
+0001.489 (0) Table wp_frmt_form_views: finishing file(s) (2, 0.4 KB)
+0001.498 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 10
+0001.500 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.506 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=3138) in 0.01 seconds
+0001.514 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1 KB)
+0001.523 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 8
+0001.525 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.528 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10708): 8 (uncompressed bytes in this segment=28136) in 0.01 seconds
+0001.536 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 6.5 KB)
+0001.551 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0001.563 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=780) in 0.02 seconds
+0001.572 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0001.606 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 7
+0001.609 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.616 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=92724) in 0.04 seconds
+0001.624 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 6.9 KB)
+0001.631 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 6
+0001.638 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=780) in 0.01 seconds
+0001.646 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0001.668 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 17
+0001.671 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.686 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 23): 17 (uncompressed bytes in this segment=214714) in 0.03 seconds
+0001.695 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 11.5 KB)
+0001.709 (0) Table wp_wpgmza: Total expected rows (via COUNT): 0
+0001.716 (0) Table wp_wpgmza: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1719) in 0.01 seconds
+0001.726 (0) Table wp_wpgmza: finishing file(s) (2, 0.5 KB)
+0001.737 (0) Table wp_wpgmza_admin_notices: Total expected rows (via COUNT): 0
+0001.740 (0) Table wp_wpgmza_admin_notices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.01 seconds
+0001.750 (0) Table wp_wpgmza_admin_notices: finishing file(s) (2, 0.4 KB)
+0001.760 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0001.763 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1325) in 0.01 seconds
+0001.771 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.5 KB)
+0001.780 (0) Table wp_wpgmza_image_overlays: Total expected rows (via COUNT): 0
+0001.784 (0) Table wp_wpgmza_image_overlays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=743) in 0.01 seconds
+0001.796 (0) Table wp_wpgmza_image_overlays: finishing file(s) (2, 0.4 KB)
+0001.819 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 1
+0001.820 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.827 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5757) in 0.02 seconds
+0001.836 (0) Table wp_wpgmza_maps: finishing file(s) (2, 1.8 KB)
+0001.847 (0) Table wp_wpgmza_point_labels: Total expected rows (via COUNT): 0
+0001.854 (0) Table wp_wpgmza_point_labels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0001.863 (0) Table wp_wpgmza_point_labels: finishing file(s) (2, 0.4 KB)
+0001.883 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0001.886 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1710) in 0.01 seconds
+0001.903 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.5 KB)
+0001.918 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0001.921 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=931) in 0.01 seconds
+0001.931 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0001.944 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0001.954 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1345) in 0.02 seconds
+0001.961 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.5 KB)
+0001.963 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/n0203885/public_html/dgl409.aarora.imgd.ca/ValleyLife/wp-content/updraft/backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0001.967 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_options.table.tmpr2760.gz (1/40/fopen): adding to final database dump
+0001.972 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_options.table.gz (2/40/fopen): adding to final database dump
+0001.975 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_users.table.tmpr2.gz (3/40/fopen): adding to final database dump
+0001.977 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_users.table.gz (4/40/fopen): adding to final database dump
+0001.980 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_usermeta.table.tmpr34.gz (5/40/fopen): adding to final database dump
+0001.982 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_usermeta.table.gz (6/40/fopen): adding to final database dump
+0001.984 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_actions.table.tmpr339.gz (7/40/fopen): adding to final database dump
+0001.986 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_actions.table.gz (8/40/fopen): adding to final database dump
+0001.988 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/40/fopen): adding to final database dump
+0001.991 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_claims.table.gz (10/40/fopen): adding to final database dump
+0001.993 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/40/fopen): adding to final database dump
+0001.996 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_groups.table.gz (12/40/fopen): adding to final database dump
+0001.998 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_logs.table.tmpr64.gz (13/40/fopen): adding to final database dump
+0002.001 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_actionscheduler_logs.table.gz (14/40/fopen): adding to final database dump
+0002.003 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_commentmeta.table.tmpr0.gz (15/40/fopen): adding to final database dump
+0002.005 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_commentmeta.table.gz (16/40/fopen): adding to final database dump
+0002.008 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_comments.table.tmpr2.gz (17/40/fopen): adding to final database dump
+0002.010 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_comments.table.gz (18/40/fopen): adding to final database dump
+0002.012 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_links.table.tmpr0.gz (19/40/fopen): adding to final database dump
+0002.014 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_links.table.gz (20/40/fopen): adding to final database dump
+0002.016 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_postmeta.table.tmpr684.gz (21/40/fopen): adding to final database dump
+0002.019 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_postmeta.table.gz (22/40/fopen): adding to final database dump
+0002.021 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_posts.table.tmpr629.gz (23/40/fopen): adding to final database dump
+0002.024 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_posts.table.gz (24/40/fopen): adding to final database dump
+0002.026 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_tec_events.table.tmpr2.gz (25/40/fopen): adding to final database dump
+0002.028 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_tec_events.table.gz (26/40/fopen): adding to final database dump
+0002.030 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_tec_occurrences.table.tmpr2.gz (27/40/fopen): adding to final database dump
+0002.033 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_tec_occurrences.table.gz (28/40/fopen): adding to final database dump
+0002.035 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_term_relationships.table.tmpr100001.gz (29/40/fopen): adding to final database dump
+0002.037 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_term_relationships.table.gz (30/40/fopen): adding to final database dump
+0002.039 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_term_taxonomy.table.tmpr8.gz (31/40/fopen): adding to final database dump
+0002.041 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_term_taxonomy.table.gz (32/40/fopen): adding to final database dump
+0002.043 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_termmeta.table.tmpr0.gz (33/40/fopen): adding to final database dump
+0002.045 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_termmeta.table.gz (34/40/fopen): adding to final database dump
+0002.047 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_terms.table.tmpr8.gz (35/40/fopen): adding to final database dump
+0002.049 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_terms.table.gz (36/40/fopen): adding to final database dump
+0002.051 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_cache.table.tmpr5.gz (37/40/fopen): adding to final database dump
+0002.053 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_cache.table.gz (38/40/fopen): adding to final database dump
+0002.055 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_notifications.table.tmpr0.gz (39/40/fopen): adding to final database dump
+0002.057 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_notifications.table.gz (40/40/fopen): adding to final database dump
+0002.059 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_posts.table.tmpr0.gz (41/40/fopen): adding to final database dump
+0002.062 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_aioseo_posts.table.gz (42/40/fopen): adding to final database dump
+0002.064 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_entry.table.tmpr0.gz (43/40/fopen): adding to final database dump
+0002.067 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_entry.table.gz (44/40/fopen): adding to final database dump
+0002.069 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_entry_meta.table.tmpr0.gz (45/40/fopen): adding to final database dump
+0002.071 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_entry_meta.table.gz (46/40/fopen): adding to final database dump
+0002.073 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_reports.table.tmpr2.gz (47/40/fopen): adding to final database dump
+0002.076 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_reports.table.gz (48/40/fopen): adding to final database dump
+0002.078 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_views.table.tmpr0.gz (49/40/fopen): adding to final database dump
+0002.080 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_frmt_form_views.table.gz (50/40/fopen): adding to final database dump
+0002.082 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_image_storage.table.tmpr11.gz (51/40/fopen): adding to final database dump
+0002.084 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_image_storage.table.gz (52/40/fopen): adding to final database dump
+0002.086 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_section_storage.table.tmpr10709.gz (53/40/fopen): adding to final database dump
+0002.088 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_section_storage.table.gz (54/40/fopen): adding to final database dump
+0002.091 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (55/40/fopen): adding to final database dump
+0002.093 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_generators.table.gz (56/40/fopen): adding to final database dump
+0002.095 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_sliders.table.tmpr8.gz (57/40/fopen): adding to final database dump
+0002.097 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_sliders.table.gz (58/40/fopen): adding to final database dump
+0002.100 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (59/40/fopen): adding to final database dump
+0002.103 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (60/40/fopen): adding to final database dump
+0002.105 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_slides.table.tmpr24.gz (61/40/fopen): adding to final database dump
+0002.110 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_nextend2_smartslider3_slides.table.gz (62/40/fopen): adding to final database dump
+0002.114 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza.table.tmpr0.gz (63/40/fopen): adding to final database dump
+0002.117 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza.table.gz (64/40/fopen): adding to final database dump
+0002.120 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_admin_notices.table.tmpr0.gz (65/40/fopen): adding to final database dump
+0002.122 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_admin_notices.table.gz (66/40/fopen): adding to final database dump
+0002.125 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_circles.table.tmpr0.gz (67/40/fopen): adding to final database dump
+0002.127 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_circles.table.gz (68/40/fopen): adding to final database dump
+0002.129 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_image_overlays.table.tmpr0.gz (69/40/fopen): adding to final database dump
+0002.130 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_image_overlays.table.gz (70/40/fopen): adding to final database dump
+0002.133 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_maps.table.tmpr2.gz (71/40/fopen): adding to final database dump
+0002.135 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_maps.table.gz (72/40/fopen): adding to final database dump
+0002.137 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_point_labels.table.tmpr0.gz (73/40/fopen): adding to final database dump
+0002.139 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_point_labels.table.gz (74/40/fopen): adding to final database dump
+0002.141 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_polygon.table.tmpr0.gz (75/40/fopen): adding to final database dump
+0002.143 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_polygon.table.gz (76/40/fopen): adding to final database dump
+0002.145 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_polylines.table.tmpr0.gz (77/40/fopen): adding to final database dump
+0002.147 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_polylines.table.gz (78/40/fopen): adding to final database dump
+0002.149 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (79/40/fopen): adding to final database dump
+0002.152 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db-table-wp_wpgmza_rectangles.table.gz (80/40/fopen): adding to final database dump
+0002.159 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz: finished writing out complete database file (417.6 KB)
+0002.182 (0) Total database tables backed up: 40 (backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz, size: 427733, sha1: 0bb02625b1d0be0b70983bf7fec8f903c243f09c, sha256: c549e91863b9267c9d2abc53f8cfead0a8c56a05ab584937e7d7820443902a7f)
+0002.200 (0) backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.202 (0) Saving backup history. Total backup size: 417.7 KB
+0002.208 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.214 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.216 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1be576d85ad2971212ac230f54228cc0)
+0003.091 (0) Google Drive: quota usage: used=1693.4 MB, total=15360 MB, available=13666.6 MB
+0003.094 (0) Google Drive: backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz: Attempting to upload to Google Drive (into folder id: 107nwkZO9Db9PR8lbj2c0uZqnxc_QyQkz)
+0005.707 (0) Googledrive chunked upload: 100 % uploaded
+0005.714 (0) Google Drive: OK: Archive backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz uploaded in 2.62 seconds
+0005.716 (0) Recording as successfully uploaded: backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz
+0005.722 (0) Deleting local file: backup_2024-04-02-1601_dgl409aaroraimgdca_ValleyLife_3179346a2937-db.gz: OK
+0005.730 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.732 (0) Number of backup sets in history: 5; groups (db): 1
+0005.735 (0) Examining (for databases) backup set with group_id=0, nonce=3179346a2937, datestamp=1712098891 (Apr 02 2024 23:01:31)
+0005.737 (0) This backup set is the backup set just made, so will not be deleted.
+0005.737 (0) Examining (for databases) backup set with group_id=0, nonce=941a6d3fd9b1, datestamp=1712000697 (Apr 01 2024 19:44:57)
+0005.737 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0005.739 (0) Examining (for databases) backup set with group_id=0, nonce=95c0900da924, datestamp=1711912281 (Mar 31 2024 19:11:21)
+0005.739 (0) 1711912281: db: this set includes a database (backup_2024-03-31-1211_dgl409aaroraimgdca_ValleyLife_95c0900da924-db.gz); db count is now 2
+0005.739 (0) 1711912281: db: over retain limit (2); will delete this database
+0007.527 (0) Google Drive: backup_2024-03-31-1211_dgl409aaroraimgdca_ValleyLife_95c0900da924-db.gz: Deletion successful
+0007.536 (0) This backup set is now empty; will remove from history
+0007.538 (0) Deleting log file (log.95c0900da924.txt)
+0007.540 (0) Examining (for databases) backup set with group_id=0, nonce=ddff089e7594, datestamp=1711687299 (Mar 29 2024 04:41:39)
+0007.540 (0) Examining (for databases) backup set with group_id=0, nonce=6e82a8aac80a, datestamp=1711652040 (Mar 28 2024 18:54:00)
+0007.540 (0) Number of backup sets in history: 4; groups (files): 1
+0007.542 (0) Examining (for files) backup set with nonce=3179346a2937, datestamp=1712098891 (Apr 02 2024 23:01:31)
+0007.542 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.544 (0) Examining (for files) backup set with nonce=941a6d3fd9b1, datestamp=1712000697 (Apr 01 2024 19:44:57)
+0007.544 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.544 (0) Examining (for files) backup set with nonce=ddff089e7594, datestamp=1711687299 (Mar 29 2024 04:41:39)
+0007.544 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.548 (0) Examining (for files) backup set with nonce=6e82a8aac80a, datestamp=1711652040 (Mar 28 2024 18:54:00)
+0007.548 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.548 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0007.555 (0) Resume backup (3179346a2937, 0): finish run
+0007.564 (0) Decremented the semaphore (d) by 1
+0007.576 (0) Semaphore (d) unlocked
+0007.579 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.594 (0) No email will/can be sent - the user has not configured an email address.
+0007.600 (0) The backup succeeded and is now complete
